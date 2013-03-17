@@ -1,0 +1,72 @@
+TotalConsole  - WFX,WDX plugin for Total Commander
+====================================================
+Copyright (c) 2007 by Dmitry Kolomiets aka B4rr4cuda.
+
+
+================================================================
+This software is provided "as-is". No warranty is provided.
+You use this program at your own risk.
+The author is not responsible for any data loss, damages, etc.
+================================================================
+
+
+
+                Introduction
+------------------------------------------------
+This plugin provides the console for Total Commander.
+Support more than 100 consoles.
+Can work with bash, csh, or default Windows shell.
+Support ctrl+c in console window.
+Support hotkeys.
+
+If you have any ideas of improving plugin send me mail with subject "TotalConsole:improve".
+
+Bug-reports must have subject "TotalConsole:BUG".
+
+Send mail to B4rr4cuda@rambler.ru
+
+
+                 Requirement
+----------------------------------------------
+ Windows 5.1 and newer.
+  
+
+                Installation
+----------------------------------------------
+ Use autoinstall.
+
+
+                 Options
+----------------------------------------------
+ * if wdx use Configuration>Custom column configuration>New->AddColumn->TotalConsole->Console
+ * If anyone console program (like a Edit,NC,VC etc) repaint wrong in TotalConsole than include it's name  to ExcludeList.ini. Create empty text file if none . Everyone name must be in a new line.
+   Example:
+   nc
+   edit
+   vc
+
+ *There is an ability to register hotkeys as system in ver 0.4.
+  This ability helps to prevent trouble with WinKey.
+  You can press Win+Ctrl+O now without ^O in console window.
+  Not recommended to use with double or more copyes TC running.
+  
+   *In case using autochanging path in console window, it need some tuning if you use some other languages except English.
+  Open Options>Troubleshooting> "Change path in console if TC current path changed". Choose language and type alphabet it uses. Just letters needed.
+  Example:
+  язык:   English
+  јлфавит:qwertyuiopasdfghjklzxcvbnm
+
+  It need for autoswitching languages while you enter in path named in any other language. Than press Add alphabet and Ok.
+
+ *Also you can use auto screen buffer sizing. Default on (0).
+
+
+                 Using
+----------------------------------------------
+ Double click on header to maximize. (if console(s) opened)
+ Midle-button click on header to create console
+ Midle-button click on tab to close console
+ Size Change - Left Click on header and drug. (if console(s) opened)
+ Press Shift+Enter to send TC command line's text to console window. (if console(s) opened)
+ There is a new command in 0.4 version to Show\Hide TotalConsole on one hotkey press.
+ 

@@ -1,0 +1,215 @@
+; Swedish menu translation by Leif Larsson
+; Version 0.9.7.0 (Aug 31 2006)
+
+MENU	101
+	POPUP	"&Arkiv"
+		MENUITEM	"&Öppna...",40036
+		MENUITEM	"Öppna &igen",40048
+		MENUITEM	"St&äng",40066
+		POPUP	"Öppna &med"
+         MENUITEM   "",40093 
+         MENUITEM   "",40094 
+         MENUITEM   "",40095 
+         MENUITEM   "",40096 
+         MENUITEM   SEPARATOR 
+         MENUITEM   "&Konfigurera ...",40092 
+      END_POPUP
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Spara",40067
+		MENUITEM	"Spara so&m...",40002
+		MENUITEM	SEPARATOR
+		MENUITEM	"Skriv &ut...",40075
+		MENUITEM	SEPARATOR
+		MENUITEM	"Välj T&WAIN-källa...",40101
+		MENUITEM	"L&äs in (från skanner, kamera, etc)...",40102
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Nästa",40030
+		MENUITEM	"&Föregående",40031
+		MENUITEM	"F&örsta",40099
+		MENUITEM	"S&ista",40100
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Kopiera...",40077
+		MENUITEM	"F&lytta...",40078
+		MENUITEM	"&Ta bort fil",40049
+		MENUITEM	"&Döp om...",40082
+		MENUITEM	"&Egenskaper",40098		
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Avsluta",40033
+	END_POPUP
+
+	POPUP	"&Redigera"
+		MENUITEM	"&Kopiera",40001
+		MENUITEM	"K&listra in",40050
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Töm Urklipp",40068
+		MENUITEM	SEPARATOR
+		MENUITEM	"Markera &allt",40089
+	END_POPUP
+
+	POPUP	"&Bild"
+		MENUITEM	"&Information...",40006
+		MENUITEM	"&EXIF-information...",40051
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Vänd upp och ner",40007
+		MENUITEM	"&Spegelvänd",40008
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Gråskala",40009
+		MENUITEM	"&Negativ",40010
+		MENUITEM	SEPARATOR
+		MENUITEM	"Ändra färg&djup...",40011
+		MENUITEM	"Änd&ra storlek...",40074
+		MENUITEM	SEPARATOR
+		POPUP	"S&kifta färger"
+			MENUITEM	"RGB -> BGR",40012
+			MENUITEM	"RGB -> RBG",40013
+			MENUITEM	"RGB -> GRB",40014
+			MENUITEM	"RGB -> BRG",40015
+			MENUITEM	"RGB -> GBR",40016
+		END_POPUP
+		POPUP	"V&rid"
+			MENUITEM	"&Vänster",40017
+			MENUITEM	"&Höger",40018
+			MENUITEM	"&180",40019
+			MENUITEM	SEPARATOR
+			MENUITEM	"&Eget...",40046
+		END_POPUP
+		POPUP	"&Välj som skrivbordsunderlägg"
+			MENUITEM	"&Centrerad",40020
+			MENUITEM	"&Sida vid sida",40021
+			MENUITEM	"&Utsträckt",40022
+		END_POPUP
+		POPUP	"&Filter"
+			MENUITEM	"&Bläddra...",40039
+	END_POPUP
+	POPUP	"&Palett"
+			MENUITEM	"&Redigera...",40023
+			MENUITEM	"&Importera...",40065
+			MENUITEM	"&Exportera...",40038
+		END_POPUP
+		POPUP	"&Genomskinlighet"
+			MENUITEM	"&Ställ in...",40062
+			MENUITEM	"&Töm",40063
+		END_POPUP
+	END_POPUP
+
+	POPUP	"A&nimering"
+		MENUITEM	"&Paus",40026
+		MENUITEM	"&Nästa bild",40027
+		MENUITEM	"&Föregående bild",40081
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Extrahera aktuell bild...",40003
+		MENUITEM	"Extrahera &alla bilder...",40004
+		MENUITEM	SEPARATOR
+		POPUP	"E&xportera"
+			MENUITEM	"&AVI-video...",40005
+		END_POPUP
+	END_POPUP
+
+	POPUP	"&Visa"
+		POPUP	"&Sida"
+			MENUITEM	"&Föregående",40042
+			MENUITEM	"&Nästa",40041
+			MENUITEM	SEPARATOR
+			MENUITEM	"F&örsta",40043
+			MENUITEM	"&Sista",40044
+		END_POPUP
+		POPUP	"&Musläge"
+			MENUITEM	"&Nästa",40090
+			MENUITEM	"&Föregående",40091
+		END_POPUP
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Verktygsfält",40064
+		MENUITEM	"Status&fält",40029
+		MENUITEM	SEPARATOR
+		MENUITEM	"Visa &bildnummer",40032
+		MENUITEM	"&Anpassa bara stora bilder",40037
+		MENUITEM	"&Helskärm",40045
+		MENUITEM	SEPARATOR
+		MENUITEM	"Visa &transparens",40028
+		MENUITEM	"&Kantutjämning",40079
+		MENUITEM	SEPARATOR
+		MENUITEM	"Zooma &in",40034
+		MENUITEM	"Zooma &ut",40035
+		MENUITEM	"&Zooma till 100%",40047
+		MENUITEM	"&Lås zoom",40088
+	END_POPUP
+
+	POPUP	"A&lternativ"
+		MENUITEM	"&Inställningar...",40024
+	END_POPUP
+
+	POPUP	"V&erktyg"
+		MENUITEM	"&Miniatyrer...",40070
+		MENUITEM	"&Skapa flersidig bild...",40083
+	END_POPUP
+
+	POPUP	"&Fönster"
+		MENUITEM	"Mi&nimera",40072
+		MENUITEM	"Ma&ximera",40073
+		MENUITEM	SEPARATOR
+		MENUITEM	"Alltid &överst",40069
+		MENUITEM	"&Spara position",40080
+	END_POPUP
+
+	POPUP	"&Hjälp"
+		MENUITEM	"&Innehåll",40076
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Understödda filformat...",40071
+		MENUITEM	"I&nstallerade insticksmoduler...",40040
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Om...",40025
+	END_POPUP
+END_MENU
+
+MENU	132
+	POPUP	"&Arkiv"
+		MENUITEM	"&Öppna",40036
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Ta bort...",40049
+		MENUITEM	"&Döp om",40082
+		MENUITEM	"&Egenskaper",40098
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Stäng",40066
+	END_POPUP
+
+	POPUP	"&Redigera"
+		MENUITEM	"&Kopiera",40001
+		MENUITEM	"K&listra in",40050
+		MENUITEM	SEPARATOR
+		MENUITEM	"Markera &allt",40089
+	END_POPUP
+
+	POPUP	"&Visa"
+		MENUITEM	"Visa &transparens",40028
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Träd",40097
+		MENUITEM	"&Verktygsfält",40064
+		MENUITEM	"&Statusfält",40029
+		MENUITEM	"S&ökvägsfält",40086
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Endast understödda filer",40087
+		MENUITEM	SEPARATOR
+		POPUP	"&Flytta till"
+			MENUITEM	"&Överordnad",40084
+		END_POPUP
+		MENUITEM	"&Läs om",40085
+	END_POPUP
+
+	POPUP	"&Alternativ"
+		MENUITEM	"&Inställningar...",40024
+	END_POPUP
+
+	POPUP	"&Fönster"
+		MENUITEM	"Mi&nimera",40072
+		MENUITEM	"Ma&ximera",40073
+		MENUITEM	SEPARATOR
+		MENUITEM	"Alltid &överst",40069
+		MENUITEM	"&Spara position",40080
+	END_POPUP
+
+	POPUP	"&Hjælp"
+		MENUITEM	"&Innehåll",40076
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Om...",40025
+	END_POPUP
+END_MENU

@@ -1,0 +1,135 @@
+[Program]
+Charset=0
+//ANSI_CHARSET	0	ANSI characters. 
+//DEFAULT_CHARSET	1	Font is chosen based solely on Name and Size. If the described font is not available on the system, Windows will substitute another font.
+//SYMBOL_CHARSET	2	Standard symbol set.
+//SHIFTJIS_CHARSET	128	Japanese shift-jis characters.
+//HANGEUL_CHARSET	129	Korean characters (Wansung).
+//JOHAB_CHARSET	130	Korean characters (Johab).
+//GB2312_CHARSET	134	Simplified Chinese characters (mainland china).
+//CHINESEBIG5_CHARSET	136	Traditional Chinese characters (taiwanese).
+//GREEK_CHARSET	161	Greek characters.
+//TURKISH_CHARSET	162	Turkish characters.
+//VIETNAMESE_CHARSET	163	Vietnamese characters.
+//HEBREW_CHARSET	177	Hebrew characters.
+//ARABIC_CHARSET	178	Arabic characters.
+//BALTIC_CHARSET	186	Baltic characters.
+//RUSSIAN_CHARSET	204	Cyrillic characters.
+//THAI_CHARSET	222	Thai characters.
+//EASTEUROPE_CHARSET	238	Includes diacritical marks for eastern european countries.
+//OEM_CHARSET	255	Depends on the codepage of the operating system.
+
+[Main]
+ComboBox_SpeedHint=
+Button_Erase=&Erase
+Button_EraseHint=
+Button_Burn=&Burn
+Button_BurnHint=
+Button_EjectHint=Lemez kiadása
+Button_ImportSession=Session &importálása
+Button_ImportSessionHint=Válaszd ki az importálandó sessiont
+Button_Options=&Beállítások
+Button_OptionsHint=Beállítások megnézése
+Button_RegisterHint=Regisztrálás online
+Button_AboutHint=Névjegy
+ProgressBarHint=
+ProjectSizeHint=Projekt mérete
+MediumSizeHint=Szabad méret(kattins rá a frissítéshez)
+GroupBox_BurnOptions= Írás 
+Text_WriteMethod=Írási módszer
+ComboBox_WriteMethod_TrackAtOnce=TAO (Track-At-Once)
+ComboBox_WriteMethod_DiskAtOnce=DAO (Disk-At-Once)
+CheckBox_ImportLastSession=Írás elõtt importálja az utolsó session-t
+CheckBox_ImportLastSessionHint=
+CheckBox_FinalizeTrack=Track lezárása
+CheckBox_FinalizeTrackHint=
+CheckBox_FinalizeDisk=Lemez lezárása
+CheckBox_FinalizeDiskHint=
+CheckBox_Joliet=Joliet filerendszer
+CheckBox_JolietHint=
+CheckBox_HideOnBurn=ikonállapot írás közben
+CheckBox_HideOnBurnHint=
+CheckBox_EjectAfterBurn=az írás után adja ki a lemezt
+CheckBox_EjectAfterBurnHint=
+CheckBox_CloseAfterBurn=Írás után zárd le a lemezt
+CheckBox_CloseAfterBurnHint=
+
+GroupBox_EraseOptions= Törlés 
+Text_EraseMethod=Törlési módszer
+ComboBox_EraseMethod_Quick=Újraírható lemez gyors törlése
+ComboBox_EraseMethod_Full=Újraírható lemez teljes törlése
+CheckBox_EjectAfterErase=törlés után adja ki a lemezt
+CheckBox_EjectAfterEraseHint=
+CheckBox_HideOnErase=ikonállapot törléskor
+CheckBox_HideOnEraseHint=
+
+GroupBox_ProjectOptions= Projekt 
+Text_VolumeLabel=Volume label
+Edit_VolumeLabelHint=
+CheckBox_BurnISO=ISO írás
+CheckBox_BurnISOHint=
+CheckBox_Bootable=boot-olható
+CheckBox_BootableHint=
+RadioButton_ImageFile=Image file
+RadioButton_ImageFileHint=
+RadioButton_Floppy=Floppy lemez
+RadioButton_FloppyHint=
+Edit_ImagePathHint=
+Button_SelectImageFileHint=
+
+CheckBox_StayOnTop=maradjon látható
+CheckBox_StayOnTopHint=
+OpenDialog_ImageFileTitle=Image file
+OpenDialog_ImageFileFilter=Startlemez image-ek (*.ima;*.img;*.bin)|*.ima;*.img;*.bin|All files|*.*
+Button_ProjectHint=
+Button_Project=Projekt...
+Button_AboutHint=Névjegy
+Button_About=Névjegy
+OpenDialog_ProjectTitle=Project megnyitása
+OpenDialog_ProjectFilter=Projektek (*.pro)|*.pro|All files|*.*
+SaveDialog_ProjectTitle=Projekt mentése
+SaveDialog_ProjectFilter=Projektek (*.pro)|*.pro|All files|*.*
+Menu_NewProject=Új projekt (Teljesen tiszta)
+Menu_OpenProject=Projekt megnyitása
+Menu_SaveProject=Projekt mentése
+CheckBox_ClearProjectAfterBurn=töröld a projektet sikeres írás után
+CheckBox_ClearProjectAfterBurnHint=
+
+//New in 3.62
+CheckBox_ShowLog=show &log
+CheckBox_ShowLogHint=
+CheckBox_VerifyDataAfterBurn=verify data after burn is complete
+CheckBox_VerifyDataAfterBurnHint=
+DeviceBufferHint=Device buffer status
+SoftwareBufferHint=Software buffer status
+
+[ImportSession]
+Text_SelectTrack=Válaszd ki a track-et a multisession folytatásához:
+Text_Track=Track
+Button_OK=OK
+Button_Cancel=Mégsem
+
+[Messages]
+NoMedia_Text=Nincs lemez a választott meghajtóban.|Tegyél be egy írható lemezt a meghajtóba és próbáld újra.||
+NoMedia_Caption=Wárakozás a lemezre
+ISONotBlank_Text=A lemez nem üres.|Töröld le mielõtt ISO image-et írnál.
+ISONotBlank_Caption=A lemez nem üres.
+Abort_Text=Biztos, hogy megszakítod a jelenlegi folyamatot?
+Abort_Caption=Kérdés
+EraseMediumWarning_Text=Figyelmeztetés!|Minden adat megsemmisül az aktuális CD/DVD -RW lemezen|selected recorder will be lost...||Folytatod?
+EraseMediumWarning_Caption=Újraírható CD/DVD törlése
+EraseDiskNotRewritable_Text=A lemez nem újraírható. Cseréld ki a lemezt és próbáld újra.
+EraseDiskNotRewritable_Caption=Figyelem!
+NewProject_Text=Az aktuális projekt minden adatata elveszik.||Folytatod?
+NewProject_Caption=Figyelmeztetés!
+Burn_NoEnoughSpace1_Text=A lemezen lévõ szabad hely-
+Burn_NoEnoughSpace2_Text=A lemezen lévõ maradék szabad hely-
+Burn_NoEnoughSpace3_Text=Folytatod?
+Burn_NoEnoughCaption_Text=Nincs elég hely az íráshoz
+Progress_Erasing=törlés
+Progress_Writing=írás
+Progress_Done=Kész
+Progress_Finalizing=lezárás...
+
+//New in 3.62
+Progress_Verifying=data verifying

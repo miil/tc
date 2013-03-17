@@ -1,0 +1,135 @@
+[Program]
+Charset=0
+//ANSI_CHARSET	0	ANSI characters. 
+//DEFAULT_CHARSET	1	La police est choisie seulement sur le nom et la taille. Si la police décrite n'est pas disponible, Windows la remplacera.
+//SYMBOL_CHARSET	2	Standard symbol set.
+//SHIFTJIS_CHARSET	128	Japanese shift-jis characters.
+//HANGEUL_CHARSET	129	Korean characters (Wansung).
+//JOHAB_CHARSET	130	Korean characters (Johab).
+//GB2312_CHARSET	134	Simplified Chinese characters (mainland china).
+//CHINESEBIG5_CHARSET	136	Traditional Chinese characters (taiwanese).
+//GREEK_CHARSET	161	Greek characters.
+//TURKISH_CHARSET	162	Turkish characters.
+//VIETNAMESE_CHARSET	163	Vietnamese characters.
+//HEBREW_CHARSET	177	Hebrew characters.
+//ARABIC_CHARSET	178	Arabic characters.
+//BALTIC_CHARSET	186	Baltic characters.
+//RUSSIAN_CHARSET	204	Cyrillic characters.
+//THAI_CHARSET	222	Thai characters.
+//EASTEUROPE_CHARSET	238	Includes diacritical marks for eastern european countries.
+//OEM_CHARSET	255	Depends on the codepage of the operating system.
+
+[Main]
+ComboBox_SpeedHint=
+Button_Erase=&Effacer
+Button_EraseHint=
+Button_Burn=&Graver
+Button_BurnHint=
+Button_EjectHint=Ejecter Disque
+Button_NewProjectHint=Nouveau projet(effacer tout)
+Button_ImportSession=&Importer...
+Button_ImportSessionHint=Sélectionner Session
+Button_Options=&Options
+Button_OptionsHint=Voir options
+Button_RegisterHint=Enregistrement en ligne
+ProgressBarHint=
+ProjectSizeHint=Taille du Projet
+MediumSizeHint=Espace disponible (click pour rafraichir)
+GroupBox_BurnOptions=Graver 
+Text_WriteMethod=Méthode : 
+ComboBox_WriteMethod_TrackAtOnce=TAO (Piste à Piste)
+ComboBox_WriteMethod_DiskAtOnce=DAO (Disque Entier)
+CheckBox_ImportLastSession=Importer derniére session avant de graver
+CheckBox_ImportLastSessionHint=
+CheckBox_FinalizeTrack=Finaliser Piste
+CheckBox_FinalizeTrackHint=
+CheckBox_FinalizeDisk=Finaliser disque
+CheckBox_FinalizeDiskHint=
+CheckBox_Joliet=Systeme Joliet
+CheckBox_JolietHint=
+CheckBox_HideOnBurn=Minimiser pendant la gravure
+CheckBox_HideOnBurnHint=
+CheckBox_EjectAfterBurn=Ejecter aprés la gravure
+CheckBox_EjectAfterBurnHint=
+CheckBox_CloseAfterBurn=Fermer aprés la gravure
+CheckBox_CloseAfterBurnHint=
+
+GroupBox_EraseOptions=Effacement
+Text_EraseMethod=Méthode :
+ComboBox_EraseMethod_Quick=Rapide
+ComboBox_EraseMethod_Full=Complet
+CheckBox_EjectAfterErase=Ejecter aprés effacement
+CheckBox_EjectAfterEraseHint=
+CheckBox_HideOnErase=Minimiser pendant effacement
+CheckBox_HideOnEraseHint=
+
+GroupBox_ProjectOptions=Projet 
+Text_VolumeLabel=Nom du disque
+Edit_VolumeLabelHint=
+CheckBox_BurnISO=Graver ISO
+CheckBox_BurnISOHint=
+CheckBox_Bootable=Bootable
+CheckBox_BootableHint=
+RadioButton_ImageFile=Fichier Image
+RadioButton_ImageFileHint=
+RadioButton_Floppy=Disquette
+RadioButton_FloppyHint=
+Edit_ImagePathHint=
+Button_SelectImageFileHint=
+CheckBox_StayOnTop=Toujours En avant
+CheckBox_StayOnTopHint=
+OpenDialog_ImageFileTitle=Fichier Image
+OpenDialog_ImageFileFilter=Image de boot(*.ima;*.img;*.bin)|*.ima;*.img;*.bin|Tous|*.*
+Button_ProjectHint=
+Button_Project=Projet...
+Button_AboutHint=A Propos
+Button_About=A Propos
+OpenDialog_ProjectTitle=Ouvrir Projet
+OpenDialog_ProjectFilter=Projets (*.pro)|*.pro|Tous Fichiers|*.*
+SaveDialog_ProjectTitle=Sauver projet
+SaveDialog_ProjectFilter=Projets (*.pro)|*.pro|Tous Fichiers|*.*
+Menu_NewProject=Nouveau Projet (effacer tout)
+Menu_OpenProject=Ouvrir projet
+Menu_SaveProject=Sauver projet
+CheckBox_ClearProjectAfterBurn=Effacer projet Aprés gravure réussie
+CheckBox_ClearProjectAfterBurnHint=
+
+//New in 3.62
+CheckBox_ShowLog=show &log
+CheckBox_ShowLogHint=
+CheckBox_VerifyDataAfterBurn=verify data after burn is complete
+CheckBox_VerifyDataAfterBurnHint=
+DeviceBufferHint=Device buffer status
+SoftwareBufferHint=Software buffer status
+
+
+[ImportSession]
+Text_SelectTrack=Sélectionner une piste pour continuer multisession:
+Text_Track=Piste
+Button_OK=OK
+Button_Cancel=Annuler
+
+[Messages]
+NoMedia_Text=Pas de disque dans le lecteur selectionné.|Insérer en un puis réessayer.||
+NoMedia_Caption=En attente d'un disque
+ISONotBlank_Text=Disque non vide.|Effacer le avant de graver l'iso.
+ISONotBlank_Caption=Disque non vide.
+Abort_Text=Etes vous sur de vouloir arrêter le processus?
+Abort_Caption=Question
+EraseMediumWarning_Text=Attention!|Toutes les données sur le média seront perdues...||Voulez vous continuer?
+EraseMediumWarning_Caption=Effacer CD/DVD réinscriptible
+EraseDiskNotRewritable_Text=Le disque n'est pas réinscriptible. Changer le média et réessayer.
+EraseDiskNotRewritable_Caption=Attention!
+NewProject_Text=Toutes les données du projet en cours seront perdues.||Voulez vous continuer?
+NewProject_Caption=Attention!
+Burn_NoEnoughSpace1_Text=Espace libre sur le disque -
+Burn_NoEnoughSpace2_Text=Espace disque restant -
+Burn_NoEnoughSpace3_Text=Voulez vous continuer?
+Burn_NoEnoughCaption_Text=Il n'y a pas assez d'espace pour graver!
+Progress_Erasing=Effacement
+Progress_Writing=Ecriture
+Progress_Done=Fini
+Progress_Finalizing=finalisation...
+
+//New in 3.62
+Progress_Verifying=data verifying

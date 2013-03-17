@@ -1,0 +1,99 @@
+TotalConsole  - WFX,WDX plugin for Total Commander
+====================================================
+Copyright (c) 2007 by Dmitry Kolomiets aka B4rr4cuda.
+
+[+] Added
+[/] Changed
+[*] Fixed
+[-] Deleted
+
+v 0.5.2
+[*] Fixed bug with working with PuntoSwitcher
+[+] Blocking tab (autochange path OFF and ask for close except of "Close all" command)
+[+] New command "CurrentPathToConsole" - change path for console. Actual for blocked consoles.
+[+] Do not change path if application is runned in console.
+[+] Double quotes in autochanged path.
+
+v 0.5.1
+[+] WFX interface.
+[+] ExcludeList GUI
+[*] Fixed bug with ExcludeList.
+[*] Fixed "Remember console size"
+[*] Minimization
+[+] New popup menu item "Restore"
+[-] Popup menu item "Hide".
+[/] Algorithm console window size changed.
+
+v 0.5 beta
+[+] Check type of the application selected for the shell (console apptype)
+[*] Fixed bug with the double console creating if 2 TC running
+[+] New option "Minimize\Restore console window on create (Use it in case an "empty tab" often appears)".
+[*] Fixed bug with the default options loading
+[/] All applications running in console are killing now on TC exit
+[+] Close TC on ALT+F4 in the console window. Default off.
+[+] The console screenbuffer can be autosized or fixed . Default - auto
+[+] Now you can specify the tabs caption's maximum size. Default off.
+[*] Fixed "strange" tab's captions
+[*] Some misk bug fixes
+[*] Fixed bug with working with PuntoSwitcher
+[+] You can specify different hotkeys and options for one command
+[+] PopUp submenu with list of internal commands.
+[+] Change path in console if TC current path\tab changed. Default off.
+
+
+v 0.4 beta
+[+] Midle-button click to create\destroy console
+[*] Showing options as modal window
+[*] Overshowing options window with shell dialog
+[*] Fixed bugs of maximized TotalConsole window
+[/] maximized window sizes
+[+] Choose hotkey as hook or as System Hotkey
+[+] show\hide command
+[*] Fixed internal commands' bugs
+[+] TC command line hook (on Shift+Enter)
+
+v 0.3 beta rc 2
+[/] hotkeys (realized as hook)
+[+] support commands receive (use sendmessage or postmessage)
+[*] fixed many implicit bugs
+[/] many small changes
+
+
+v 0.3 beta
+[*] Find dialog bug
+[*] unloading in TC *.* < 7.0
+[+] null string return
+[+] checking excludeList.ini
+[+] options
+[+] hotkeys
+[+] localization
+
+v 0.2
+[/]Renamed to TotalConsole
+[*] bug with Find Dialog
+[+] caption changing
+[*] sizing with dir's tree
+[*] working with console-interfaced programs
+[/] hooking of size change (from hook to subbclass)
+[*] load\unload plugin with enabled TC key ThreadFindFirst
+[+] hook to cm_ExecuteDOS
+[/] Optimized console sizing
+
+
+V 0.1 beta
+
+[+] Autoinstall
+[*] size change
+[*] TC panels position change
+[*] TC size change
+[*] splitter movement
+[*] size change after hiding
+[*] bug with ntvdm
+[*] "exit" in console
+[*] bug with lister (ctrl+q)
+[+] functionally with Top and Bottom TC panels.
+[+] fields for autoloading in TC 7.0
+
+
+V 0.1 alpha
+First release

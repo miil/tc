@@ -1,0 +1,135 @@
+[Program]
+Charset=0
+//ANSI_CHARSET	0	ANSI characters. 
+//DEFAULT_CHARSET	1	Font is chosen based solely on Name and Size. If the described font is not available on the system, Windows will substitute another font.
+//SYMBOL_CHARSET	2	Standard symbol set.
+//SHIFTJIS_CHARSET	128	Japanese shift-jis characters.
+//HANGEUL_CHARSET	129	Korean characters (Wansung).
+//JOHAB_CHARSET	130	Korean characters (Johab).
+//GB2312_CHARSET	134	Simplified Chinese characters (mainland china).
+//CHINESEBIG5_CHARSET	136	Traditional Chinese characters (taiwanese).
+//GREEK_CHARSET	161	Greek characters.
+//TURKISH_CHARSET	162	Turkish characters.
+//VIETNAMESE_CHARSET	163	Vietnamese characters.
+//HEBREW_CHARSET	177	Hebrew characters.
+//ARABIC_CHARSET	178	Arabic characters.
+//BALTIC_CHARSET	186	Baltic characters.
+//RUSSIAN_CHARSET	204	Cyrillic characters.
+//THAI_CHARSET	222	Thai characters.
+//EASTEUROPE_CHARSET	238	Includes diacritical marks for eastern european countries.
+//OEM_CHARSET	255	Depends on the codepage of the operating system.
+
+[Main]
+ComboBox_SpeedHint=
+Button_Erase=&Cancella
+Button_EraseHint=Cancella disco
+Button_Burn=&Scrivi
+Button_BurnHint=Avvia la scrittura sul disco
+Button_EjectHint=Espulsione disco
+Button_NewProjectHint=Nuovo progetto(Elimina tutto)
+Button_ImportSession=&Sessione...
+Button_ImportSessionHint=Selezionare sessione da importare
+Button_Options=&Opzioni
+Button_OptionsHint=Visualizza opzioni
+Button_RegisterHint=Registrazione on line
+ProgressBarHint=
+ProjectSizeHint=Dimensione progetto
+MediumSizeHint=Spazio disponibile(click per aggiornare)
+GroupBox_BurnOptions= Scrivi 
+Text_WriteMethod=Tipo scrittura
+ComboBox_WriteMethod_TrackAtOnce=TAO (Track-At-Once)
+ComboBox_WriteMethod_DiskAtOnce=DAO (Disk-At-Once)
+CheckBox_ImportLastSession=Importare ultima sessione prima di scrivere
+CheckBox_ImportLastSessionHint=Importare ultima sessione prima di scrivere
+CheckBox_FinalizeTrack=Finaliza traccia
+CheckBox_FinalizeTrackHint=
+CheckBox_FinalizeDisk=Finaliza disco
+CheckBox_FinalizeDiskHint=FInalizza disco. Impossibile aggiungere altri dati
+CheckBox_Joliet=File system Joliet
+CheckBox_JolietHint=
+CheckBox_HideOnBurn=Riduci a icona durante la scrittura
+CheckBox_HideOnBurnHint=
+CheckBox_EjectAfterBurn=Espulsione disco dopo la scrittura
+CheckBox_EjectAfterBurnHint=
+CheckBox_CloseAfterBurn=Chiudi quando la scrittura è completa
+CheckBox_CloseAfterBurnHint=
+
+GroupBox_EraseOptions= Cancellare 
+Text_EraseMethod=Tipo cancellazione
+ComboBox_EraseMethod_Quick=Cancellazione rapida disco riscrivibile
+ComboBox_EraseMethod_Full=Cancellazione completa e totale disco riscrivibile
+CheckBox_EjectAfterErase=Espulsione dopo la cancellazione
+CheckBox_EjectAfterEraseHint=
+CheckBox_HideOnErase=Minimiza durante la cancellazione
+CheckBox_HideOnEraseHint=
+
+GroupBox_ProjectOptions= Progetto 
+Text_VolumeLabel=Etichetta disco
+Edit_VolumeLabelHint=
+CheckBox_BurnISO=Scrivi immagine ISO
+CheckBox_BurnISOHint=
+CheckBox_Bootable=Disco avviabile
+CheckBox_BootableHint=
+RadioButton_ImageFile=File Immagine
+RadioButton_ImageFileHint=
+RadioButton_Floppy=Floppy disk
+RadioButton_FloppyHint=
+Edit_ImagePathHint=
+Button_SelectImageFileHint=
+CheckBox_StayOnTop=In primo piano
+CheckBox_StayOnTopHint=
+OpenDialog_ImageFileTitle=File Immagine
+OpenDialog_ImageFileFilter=Boot images (*.ima;*.img;*.bin)|*.ima;*.img;*.bin|tutto|*.*
+Button_ProjectHint=
+Button_Project=Project...
+Button_AboutHint=About box
+Button_About=About box
+OpenDialog_ProjectTitle=Open project
+OpenDialog_ProjectFilter=Projects (*.pro)|*.pro|All files|*.*
+SaveDialog_ProjectTitle=Save project
+SaveDialog_ProjectFilter=Projects (*.pro)|*.pro|All files|*.*
+Menu_NewProject=New project (clear all)
+Menu_OpenProject=Open project
+Menu_SaveProject=Save project
+CheckBox_ClearProjectAfterBurn=clear the project after burn is complete
+CheckBox_ClearProjectAfterBurnHint=
+
+//New in 3.62
+CheckBox_ShowLog=show &log
+CheckBox_ShowLogHint=
+CheckBox_VerifyDataAfterBurn=verify data after burn is complete
+CheckBox_VerifyDataAfterBurnHint=
+DeviceBufferHint=Device buffer status
+SoftwareBufferHint=Software buffer status
+
+
+[ImportSession]
+Text_SelectTrack=Selezionare una traccia per continuare disco multisessione:
+Text_Track=Traccia
+Button_OK=OK
+Button_Cancel=Annulla
+
+[Messages]
+NoMedia_Text=Nessun disco nel drive selezionato.|Inserire un disco ri-scrivibile e riprovare.||
+NoMedia_Caption=Attesa inserimento disco
+ISONotBlank_Text=Il disco contiene dati.|Cancellare prima di scrivere il file ISO.
+ISONotBlank_Caption=Il disco contiene dati.
+Abort_Text=Annulare l'operazione corrente?
+Abort_Caption=Domanda
+EraseMediumWarning_Text=Attenzione!|Tutti i dati del CD/DVD -RW nel|drive selezionato saranno cancellati...||Continuare con l'operazione ?
+EraseMediumWarning_Caption=Cancellazione CD/DVD ri-scrivibile
+EraseDiskNotRewritable_Text=Disco non ri-scrivibile. Sostituire e riprovare.
+EraseDiskNotRewritable_Caption=Attenzioe!
+NewProject_Text=Tutti i dati del progetto corrente saranno cancellati.|| Continuare ?
+NewProject_Caption=Avviso !!!
+Burn_NoEnoughSpace1_Text=Spazio libero sul disco-
+Burn_NoEnoughSpace2_Text=Spazio libero rimanente sul disco-
+Burn_NoEnoughSpace3_Text=Continuare ?
+Burn_NoEnoughCaption_Text=Spazio insufficiente per la scrittura!
+Progress_Erasing=Cancellazione
+Progress_Writing=Scrittura in corso..
+Progress_Done=Fatto !!
+Progress_Finalizing=finalizing...
+
+//New in 3.62
+Progress_Verifying=data verifying

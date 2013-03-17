@@ -1,0 +1,136 @@
+[Program]
+Charset=0
+//ANSI_CHARSET		0	ANSI characters. 
+//DEFAULT_CHARSET	1	Font is chosen based solely on Name and Size. If the described 				font is not available on the system, Windows will substitute another font.
+//SYMBOL_CHARSET	2	Standard symbol set.
+//SHIFTJIS_CHARSET	128	Japanese shift-jis characters.
+//HANGEUL_CHARSET	129	Korean characters (Wansung).
+//JOHAB_CHARSET		130	Korean characters (Johab).
+//GB2312_CHARSET	134	Simplified Chinese characters (mainland china).
+//CHINESEBIG5_CHARSET	136	Traditional Chinese characters (taiwanese).
+//GREEK_CHARSET		161	Greek characters.
+//TURKISH_CHARSET	162	Turkish characters.
+//VIETNAMESE_CHARSET	163	Vietnamese characters.
+//HEBREW_CHARSET	177	Hebrew characters.
+//ARABIC_CHARSET	178	Arabic characters.
+//BALTIC_CHARSET	186	Baltic characters.
+//RUSSIAN_CHARSET	204	Cyrillic characters.
+//THAI_CHARSET		222	Thai characters.
+//EASTEUROPE_CHARSET	238	Includes diacritical marks for eastern european countries.
+//OEM_CHARSET		255	Depends on the codepage of the operating system.
+
+[Main]
+ComboBox_SpeedHint=
+Button_Erase=&Fshij
+Button_EraseHint=
+Button_Burn=&Djeg
+Button_BurnHint=
+Button_EjectHint=Nxjerr diskun
+Button_ImportSession=&Importo sesionin
+Button_ImportSessionHint=Zgjedh sesionin për importim
+Button_Options=&Mundësitë
+Button_OptionsHint=Shfaq mundësitë
+Button_RegisterHint=Regjistrohu nëLinjë
+Button_AboutHint=Rreth kutisë
+ProgressBarHint=
+ProjectSizeHint=Madhësia e projektit
+MediumSizeHint=Madhësia e lirë (kliko për rifreskim)
+
+GroupBox_BurnOptions= Djeg
+Text_WriteMethod=Shkruaj metodën
+ComboBox_WriteMethod_TrackAtOnce=TAO (Track-At-Once)
+ComboBox_WriteMethod_DiskAtOnce=DAO (Disk-At-Once)
+CheckBox_ImportLastSession=Importo sesionin e fundit para djegies
+CheckBox_ImportLastSessionHint=
+CheckBox_FinalizeTrack=Finalizo pistën
+CheckBox_FinalizeTrackHint=
+CheckBox_FinalizeDisk=Finalizo diskun
+CheckBox_FinalizeDiskHint=
+CheckBox_Joliet=Sistemi i fileve Joliet
+CheckBox_JolietHint=
+CheckBox_HideOnBurn=minimizo gjatë djegies
+CheckBox_HideOnBurnHint=
+CheckBox_EjectAfterBurn=nxjerr diskun pas përfundimit të djegies
+CheckBox_EjectAfterBurnHint=
+CheckBox_CloseAfterBurn=mbyll pasi djegia të kryhet
+CheckBox_CloseAfterBurnHint=
+
+GroupBox_EraseOptions= Fshij
+Text_EraseMethod=Metoda e fshirjes
+ComboBox_EraseMethod_Quick=Fshirje e shpejtë për mediumin rishkrues
+ComboBox_EraseMethod_Full=Fshirje e plotë për mediumin rishkrues
+CheckBox_EjectAfterErase=nxjerr diskun pas fshirjes
+CheckBox_EjectAfterEraseHint=
+CheckBox_HideOnErase=minimizo gjatë fshirjes
+CheckBox_HideOnEraseHint=
+
+GroupBox_ProjectOptions= Projekti
+Text_VolumeLabel=Etiketa e volumit
+Edit_VolumeLabelHint=
+CheckBox_BurnISO=djeg ISO
+CheckBox_BurnISOHint=
+CheckBox_Bootable=i ngarkueshëm
+CheckBox_BootableHint=
+RadioButton_ImageFile=Fili i imazhit
+RadioButton_ImageFileHint=
+RadioButton_Floppy=Disk floppy
+RadioButton_FloppyHint=
+Edit_ImagePathHint=
+Button_SelectImageFileHint=
+
+CheckBox_StayOnTop=qëndro në krye
+CheckBox_StayOnTopHint=
+OpenDialog_ImageFileTitle=fili i imazhit
+OpenDialog_ImageFileFilter=ngarko imazhet (*.ima;*.img;*.bin)|*.ima;*.img;*.bin|të gjitha|*.*
+Button_ProjectHint=
+Button_Project=Projekti...
+Button_AboutHint=Rreth kutisë
+Button_About=Rreth kutisë
+OpenDialog_ProjectTitle=Hap projekt
+OpenDialog_ProjectFilter=Projektet (*.pro)|*.pro|të gjitha|*.*
+SaveDialog_ProjectTitle=Ruaj projekt
+SaveDialog_ProjectFilter=Projektet (*.pro)|*.pro|All files|*.*
+Menu_NewProject=Projekt i ri (pastro të gjitha)
+Menu_OpenProject=Hap projekt
+Menu_SaveProject=Ruaj projekt
+CheckBox_ClearProjectAfterBurn=pastro projektin pasi djegia ka përfunduar
+CheckBox_ClearProjectAfterBurnHint=
+
+//New in 3.62
+CheckBox_ShowLog=show &log
+CheckBox_ShowLogHint=
+CheckBox_VerifyDataAfterBurn=verify data after burn is complete
+CheckBox_VerifyDataAfterBurnHint=
+DeviceBufferHint=Device buffer status
+SoftwareBufferHint=Software buffer status
+
+[ImportSession]
+Text_SelectTrack=Zgjedh pistën për të vazhduar me shkrim multi-sesion:
+Text_Track=Pistë
+Button_OK=OK
+Button_Cancel=Anulo
+
+[Messages]
+NoMedia_Text=Nuk është futur asnjë medie në drejtuesin e zgjedhur.|Ju lutem futni një medie të regjistrueshme dhe provoni përsëri.||
+NoMedia_Caption=Pret diskun
+ISONotBlank_Text=Disku nuk është i zbrazët.|Fshijeni para se të djegni imazhin ISO.
+ISONotBlank_Caption=Disku nuk është i zbrazët.
+Abort_Text=A jeni i sigurtë se doni të anuloni procesin aktual?
+Abort_Caption=Pyetje
+EraseMediumWarning_Text=Paralajmërim!|Të gjitha të dhënat në CD/DVD -RW në regjistruesin aktual|të zgjedhur do të humbin...||Doni të vazhdoni?
+EraseMediumWarning_Caption=Fshij CD/DVD e rishkrueshme
+EraseDiskNotRewritable_Text=Disku nuk është i rishkrueshëm. Ndrysho medie dhe provo përsëri.
+EraseDiskNotRewritable_Caption=Kujdes!
+NewProject_Text=Të gjitha të dhënat e projektit aktual do të humbin.||Doni të vazhdoni?
+NewProject_Caption=Paralajmërim!
+Burn_NoEnoughSpace1_Text=Hapësirë e lirë në disk-
+Burn_NoEnoughSpace2_Text=Hapësira e lirë e mbetur në disk-
+Burn_NoEnoughSpace3_Text=Doni të vazhdoni?
+Burn_NoEnoughCaption_Text=Nuk ka hapësirë të mjaftueshme për ë djegur!
+Progress_Erasing=fshin
+Progress_Writing=shkruan
+Progress_Done=fund
+Progress_Finalizing=finalizon...
+
+//New in 3.62
+Progress_Verifying=data verifying

@@ -1,0 +1,177 @@
+; Romanian menu translation by Lorant Szakacs (szlori@yahoo.com)
+; Version 0.9.0.0 (Sep 03 2005)
+
+MENU	101
+	POPUP	"&Fisier"
+		MENUITEM	"&Deschide...",40036
+		MENUITEM	"&Redeschide",40048
+		MENUITEM	"&Inchide",40066
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Salveaza",40067
+		MENUITEM	"Salveaza c&a...",40002
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Tipareste...",40075
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Urmator",40030
+		MENUITEM	"&Precedent",40031
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Copiaza...",40077
+		MENUITEM	"&Muta...",40078
+		MENUITEM	"Ster&ge...",40049
+		MENUITEM	"R&edenumeste...",40082
+		MENUITEM	SEPARATOR
+		MENUITEM	"Iesire",40033
+	END_POPUP
+
+	POPUP	"&Editare"
+		MENUITEM	"&Copiaza",40001
+		MENUITEM	"&Lipeste",40050
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Sterge clipboard",40068
+	END_POPUP
+
+	POPUP	"&Imagine"
+		MENUITEM	"&Informatii...",40006
+		MENUITEM	"Informatii &EXIF...",40051
+		MENUITEM	SEPARATOR
+		MENUITEM	"Oglindeste &vertical",40007
+		MENUITEM	"Oglindeste &orizontal",40008
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Gradatii de gri",40009
+		MENUITEM	"&Negativ",40010
+		MENUITEM	SEPARATOR
+		MENUITEM	"Schimba &adancime culori...",40011
+		MENUITEM	"Re&dimensioneaza...",40074
+		MENUITEM	SEPARATOR
+		POPUP	"Interschimba &culori"
+			MENUITEM	"RGB -> BGR",40012
+			MENUITEM	"RGB -> RBG",40013
+			MENUITEM	"RGB -> GRB",40014
+			MENUITEM	"RGB -> BRG",40015
+			MENUITEM	"RGB -> GBR",40016
+		END_POPUP
+		POPUP	"&Roteste"
+			MENUITEM	"&Stanga",40017
+			MENUITEM	"&Dreapta",40018
+			MENUITEM	"&180",40019
+			MENUITEM	SEPARATOR
+			MENUITEM	"&Liber...",40046
+		END_POPUP
+		POPUP	"Stabileste ca &wallpaper"
+			MENUITEM	"&Centrat",40020
+			MENUITEM	"&Placi",40021
+			MENUITEM	"&Intins",40022
+		END_POPUP
+		POPUP	"&Filtre"
+			MENUITEM	"&Rasfoieste...",40039
+		END_POPUP
+		POPUP	"&Paleta"
+			MENUITEM	"&Editeaza...",40023
+			MENUITEM	"&Importa...",40065
+			MENUITEM	"E&xporta...",40038
+		END_POPUP
+		POPUP	"&Transparenta"
+			MENUITEM	"&Stabileste...",40062
+			MENUITEM	"S&terge",40063
+		END_POPUP
+	END_POPUP
+
+	POPUP	"A&nimatie"
+		MENUITEM	"&Intrerupe",40026
+		MENUITEM	"Cadrul &urmator",40027
+		MENUITEM	"Cadrul &precedent",40081
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Extrage cadrul curent...",40003
+		MENUITEM	"Extrage &toate cadrele...",40004
+		MENUITEM	SEPARATOR
+		POPUP	"E&xporta"
+			MENUITEM	"&AVI video...",40005
+		END_POPUP
+	END_POPUP
+
+	POPUP	"&Vizualizare"
+		POPUP	"&Pagina"
+			MENUITEM	"&Precedenta",40042
+			MENUITEM	"&Urmatoare",40041
+			MENUITEM	SEPARATOR
+			MENUITEM	"P&rima",40043
+			MENUITEM	"U&ltima",40044
+		END_POPUP
+		MENUITEM	SEPARATOR
+		MENUITEM	"Bara de &unelte",40064
+		MENUITEM	"Bara de &stare",40029
+		MENUITEM	SEPARATOR
+		MENUITEM	"Numar &cadru",40032
+		MENUITEM	"Potriveste numai imagini &mari",40037
+		MENUITEM	"Pe tot &ecranul",40045
+		MENUITEM	SEPARATOR
+		MENUITEM	"Arata &transparenta",40028
+		MENUITEM	"&Anti aliasing",40079
+		MENUITEM	SEPARATOR
+		MENUITEM	"Apropie &lupa",40034
+		MENUITEM	"&Departeaza lupa",40035
+		MENUITEM	"&Fara lupa",40047
+	END_POPUP
+
+	POPUP	"&Optiuni"
+		MENUITEM	"&Preferinte...",40024
+	END_POPUP
+
+	POPUP	"&Unelte"
+		MENUITEM	"&Imagini miniatura...",40070
+		MENUITEM	"Creaza pagini &multiple...",40083
+	END_POPUP
+
+	POPUP	"Fe&reastra"
+		MENUITEM	"Mi&nimizeaza",40072
+		MENUITEM	"Ma&ximizeaza",40073
+		MENUITEM	SEPARATOR
+		MENUITEM	"Totdeauna &deasupra",40069
+		MENUITEM	"&Salveaza pozitia",40080
+	END_POPUP
+
+	MENUITEM	SEPARATOR
+
+	POPUP	"&Ajutor"
+		MENUITEM	"&Cuprins",40076
+		MENUITEM	SEPARATOR
+		MENUITEM	"Formate de fisier &suportate...",40071
+		MENUITEM	"&Extensii instalate...",40040
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Despre...",40025
+	END_POPUP
+END_MENU
+
+MENU	132
+	POPUP	"&Fisier"
+		MENUITEM	"&Deschide",40036
+		MENUITEM	"R&edenumeste",40082
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Inchide",40066
+	END_POPUP
+
+	POPUP	"&Vizualizare"
+		MENUITEM	"Bara de &unelte",40064
+		MENUITEM	"Bara de &stare",40029
+		MENUITEM	"Bara de &locatie",40086
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Numai fisiere suportate",40087
+		MENUITEM	SEPARATOR
+		POPUP	"&Deplasare la"
+			MENUITEM	"&Parinte",40084
+		END_POPUP
+		MENUITEM	"&Reciteste",40085
+	END_POPUP
+
+	POPUP	"&Optiuni"
+		MENUITEM	"&Preferinte...",40024
+	END_POPUP
+
+	POPUP	"F&ereastra"
+		MENUITEM	"Mi&nimizeaza",40072
+		MENUITEM	"Ma&ximizeaza",40073
+		MENUITEM	SEPARATOR
+		MENUITEM	"Totdeauna &deasupra",40069
+		MENUITEM	"&Salveaza pozitia",40080
+	END_POPUP
+END_MENU

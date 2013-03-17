@@ -1,0 +1,14 @@
+; GENERATOR: Help Development Studio 1.9
+
+:Base Back2Life.hlp
+:Title Back2Life for TC
+1 Introduction=T2
+1 License agreement=T3
+1 Program features=T4
+1 Special thanks=T14
+1 Registration=T17
+1 Working with the program
+2 Install and Uninstall=T15
+2 How to use it=T16
+2 Difference between FAT and NTFS=T101
+2 Recommendations=T102

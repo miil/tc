@@ -1,0 +1,177 @@
+; Українське меню. Автор перекладу Роман Новоставський aka StayAtHome (stayathome@ukr.net)
+; Версія 0.9.0.0 (Вересень 2005)
+
+MENU    101
+        POPUP   "&Файл"
+                MENUITEM        "&Відкрити...",40036
+                MENUITEM        "&Оновити",40048
+                MENUITEM        "&Закрити",40066
+                MENUITEM        SEPARATOR
+                MENUITEM        "З&берегти",40067
+                MENUITEM        "Зберегти &як...",40002
+                MENUITEM        SEPARATOR
+                MENUITEM        "&Друк...",40075
+                MENUITEM        SEPARATOR
+                MENUITEM        "&Наступний",40030
+                MENUITEM        "&Попередній",40031
+                MENUITEM        SEPARATOR
+                MENUITEM        "&Копіювати...",40077
+                MENUITEM        "Пере&містити...",40078
+                MENUITEM        "Вид&алити...",40049
+                MENUITEM        "П&ерейменувати...",40082
+                MENUITEM        SEPARATOR
+                MENUITEM        "В&ихід",40033
+        END_POPUP
+
+        POPUP   "&Редагування"
+                MENUITEM        "&Копіювати",40001
+                MENUITEM        "&Вставити",40050
+                MENUITEM        SEPARATOR
+                MENUITEM        "Очистити &буфер обміну",40068
+        END_POPUP
+
+        POPUP   "&Зображення"
+                MENUITEM        "&Інформація...",40006
+                MENUITEM        "Ін&формація EXIF...",40051
+                MENUITEM        SEPARATOR
+                MENUITEM        "Відбити &вертикально",40007
+                MENUITEM        "Відбити &горизонтально",40008
+                MENUITEM        SEPARATOR
+                MENUITEM        "В&іддтінки сірого",40009
+                MENUITEM        "&Негатив",40010
+                MENUITEM        SEPARATOR
+                MENUITEM        "&Глибина кольору...",40011
+                MENUITEM        "Змінити &розмір...",40074
+                MENUITEM        SEPARATOR
+                POPUP   "З&аміна кольорів"
+                        MENUITEM        "RGB -> BGR",40012
+                        MENUITEM        "RGB -> RBG",40013
+                        MENUITEM        "RGB -> GRB",40014
+                        MENUITEM        "RGB -> BRG",40015
+                        MENUITEM        "RGB -> GBR",40016
+                END_POPUP
+                POPUP   "По&ворот"
+                        MENUITEM        "В&ліво",40017
+                        MENUITEM        "В&право",40018
+                        MENUITEM        "&На 180°",40019
+                        MENUITEM        SEPARATOR
+                        MENUITEM        "&Довільно...",40046
+                END_POPUP
+                POPUP   "Встановити як &шпалери"
+                        MENUITEM        "В &центрі",40020
+                        MENUITEM        "&Мозаїкою",40021
+                        MENUITEM        "&Розтягнути",40022
+                END_POPUP
+                POPUP   "&Фільтр"
+                        MENUITEM        "&Огляд...",40039
+                END_POPUP
+                POPUP   "&Палітра"
+                        MENUITEM        "&Редагувати...",40023
+                        MENUITEM        "&Імпорт...",40065
+                        MENUITEM        "&Експорт...",40038
+                END_POPUP
+                POPUP   "&Прозорість"
+                        MENUITEM        "&Встановити...",40062
+                        MENUITEM        "&Очистити",40063
+                END_POPUP
+        END_POPUP
+
+        POPUP   "&Анімація"
+                MENUITEM        "&Пауза",40026
+                MENUITEM        "&Наступний кадр",40027
+                MENUITEM        "П&опередній кадр",40081
+                MENUITEM        SEPARATOR
+                MENUITEM        "Зберегти &біжучий кадр...",40003
+                MENUITEM        "Зберегти &всі кадри...",40004
+                MENUITEM        SEPARATOR
+                POPUP   "&Експорт"
+                        MENUITEM        "&Відео AVI...",40005
+                END_POPUP
+        END_POPUP
+
+        POPUP   "&Вигляд"
+                POPUP   "&Сторінка"
+                        MENUITEM        "&Попередня",40042
+                        MENUITEM        "&Наступна",40041
+                        MENUITEM        SEPARATOR
+                        MENUITEM        "Пе&рша",40043
+                        MENUITEM        "&Остання",40044
+                END_POPUP
+                MENUITEM        SEPARATOR
+                MENUITEM        "&Панель інструментів",40064
+                MENUITEM        "&Стрічка стану",40029
+                MENUITEM        SEPARATOR
+                MENUITEM        "Показати кількість &кадрів",40032
+                MENUITEM        "Мастшабувати лише &великі зображення",40037
+                MENUITEM        "На весь &екран",40045
+                MENUITEM        SEPARATOR
+                MENUITEM        "Показувати &прозорість",40028
+                MENUITEM        "&Згладжування",40079
+                MENUITEM        SEPARATOR
+                MENUITEM        "З&більшити масштаб",40034
+                MENUITEM        "З&меншити масштаб",40035
+                MENUITEM        "Масштаб 100%",40047
+        END_POPUP
+
+        POPUP   "&Опції"
+                MENUITEM        "&Налаштування...",40024
+        END_POPUP
+
+        POPUP   "&Інструменти"
+                MENUITEM        "&Ескізи...",40070
+                MENUITEM        "&Багатосторінкове зображення...",40083
+        END_POPUP
+
+        POPUP   "Ві&кно"
+                MENUITEM        "&Згорнути",40072
+                MENUITEM        "&Розгорнути",40073
+                MENUITEM        SEPARATOR
+                MENUITEM        "З&авжди зверху",40069
+                MENUITEM        "З&берегти позицію",40080
+        END_POPUP
+
+        MENUITEM        SEPARATOR
+
+        POPUP   "&Довідка"
+                MENUITEM        "&Зміст",40076
+                MENUITEM        SEPARATOR
+                MENUITEM        "&Формати, що підтримуються...",40071
+                MENUITEM        "Встановлені &плагіни...",40040
+                MENUITEM        SEPARATOR
+                MENUITEM        "&Про програму...",40025
+        END_POPUP
+END_MENU
+
+MENU    132
+        POPUP   "&Файл"
+                MENUITEM        "&Відкрити",40036
+                MENUITEM        "&Перейменувати",40082
+                MENUITEM        SEPARATOR
+                MENUITEM        "&Закрити",40066
+        END_POPUP
+
+        POPUP   "&Вигляд"
+                MENUITEM        "&Панель інструментів",40064
+                MENUITEM        "&Стрічка стану",40029
+                MENUITEM        "&Рядок адреси",40086
+                MENUITEM        SEPARATOR
+                MENUITEM        "&Лише підтримувані формати файлів",40087
+                MENUITEM        SEPARATOR
+                POPUP   "П&ерехід"
+                        MENUITEM        "&Вверх",40084
+                END_POPUP
+                MENUITEM        "&Оновити",40085
+        END_POPUP
+
+        POPUP   "&Опції"
+                MENUITEM        "&Налаштування...",40024
+        END_POPUP
+
+        POPUP   "Ві&кно"
+                MENUITEM        "&Згорнути",40072
+                MENUITEM        "&Розгорнути",40073
+                MENUITEM        SEPARATOR
+                MENUITEM        "&Завжди зверху",40069
+                MENUITEM        "З&берегти позицію",40080
+        END_POPUP
+END_MENU

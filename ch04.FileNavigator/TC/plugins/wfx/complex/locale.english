@@ -1,0 +1,139 @@
+[Program]
+Charset=0
+//ANSI_CHARSET	0	ANSI characters. 
+//DEFAULT_CHARSET	1	Font is chosen based solely on Name and Size. If the described font is not available on the system, Windows will substitute another font.
+//SYMBOL_CHARSET	2	Standard symbol set.
+//SHIFTJIS_CHARSET	128	Japanese shift-jis characters.
+//HANGEUL_CHARSET	129	Korean characters (Wansung).
+//JOHAB_CHARSET	130	Korean characters (Johab).
+//GB2312_CHARSET	134	Simplified Chinese characters (mainland china).
+//CHINESEBIG5_CHARSET	136	Traditional Chinese characters (taiwanese).
+//GREEK_CHARSET	161	Greek characters.
+//TURKISH_CHARSET	162	Turkish characters.
+//VIETNAMESE_CHARSET	163	Vietnamese characters.
+//HEBREW_CHARSET	177	Hebrew characters.
+//ARABIC_CHARSET	178	Arabic characters.
+//BALTIC_CHARSET	186	Baltic characters.
+//RUSSIAN_CHARSET	204	Cyrillic characters.
+//THAI_CHARSET	222	Thai characters.
+//EASTEUROPE_CHARSET	238	Includes diacritical marks for eastern european countries.
+//OEM_CHARSET	255	Depends on the codepage of the operating system.
+
+[Main]
+ComboBox_SpeedHint=
+Button_Erase=&Erase
+Button_EraseHint=
+Button_Burn=&Burn
+Button_BurnHint=
+Button_EjectHint=Eject the disc
+Button_ImportSession=&Import session
+Button_ImportSessionHint=Select session to import
+Button_Options=&Options
+Button_OptionsHint=View options
+Button_RegisterHint=Register online
+Button_AboutHint=About box
+ProgressBarHint=
+ProjectSizeHint=Project size
+MediumSizeHint=Free size(click to refresh)
+GroupBox_BurnOptions= Burn 
+Text_WriteMethod=Write method
+ComboBox_WriteMethod_TrackAtOnce=TAO (Track-At-Once)
+ComboBox_WriteMethod_DiskAtOnce=DAO (Disk-At-Once)
+CheckBox_ImportLastSession=Import last session before burn
+CheckBox_ImportLastSessionHint=
+CheckBox_FinalizeTrack=Finalize track
+CheckBox_FinalizeTrackHint=
+CheckBox_FinalizeDisk=Finalize disk
+CheckBox_FinalizeDiskHint=
+CheckBox_Joliet=Joliet filesystem
+CheckBox_JolietHint=
+CheckBox_HideOnBurn=minimize on burn
+CheckBox_HideOnBurnHint=
+CheckBox_EjectAfterBurn=eject the disk after burn is complete
+CheckBox_EjectAfterBurnHint=
+CheckBox_CloseAfterBurn=close after burn is complete
+CheckBox_CloseAfterBurnHint=
+
+GroupBox_EraseOptions= Erase 
+Text_EraseMethod=Erase method
+ComboBox_EraseMethod_Quick=Quick-erase rewritable medium
+ComboBox_EraseMethod_Full=Full-erase rewritable medium
+CheckBox_EjectAfterErase=eject the disk after erase
+CheckBox_EjectAfterEraseHint=
+CheckBox_HideOnErase=minimize on erase
+CheckBox_HideOnEraseHint=
+
+GroupBox_ProjectOptions= Project 
+Text_VolumeLabel=Volume label
+Edit_VolumeLabelHint=
+CheckBox_BurnISO=burn ISO
+CheckBox_BurnISOHint=
+CheckBox_Bootable=bootable
+CheckBox_BootableHint=
+RadioButton_ImageFile=Image file
+RadioButton_ImageFileHint=
+RadioButton_Floppy=Floppy disk
+RadioButton_FloppyHint=
+Edit_ImagePathHint=
+Button_SelectImageFileHint=
+
+CheckBox_StayOnTop=stay on top
+CheckBox_StayOnTopHint=
+OpenDialog_ImageFileTitle=Image file
+OpenDialog_ImageFileFilter=Boot images (*.ima;*.img;*.bin)|*.ima;*.img;*.bin|All files|*.*
+
+//New in 3.60
+Button_ProjectHint=
+Button_Project=Project...
+Button_AboutHint=About box
+Button_About=About box
+OpenDialog_ProjectTitle=Open project
+OpenDialog_ProjectFilter=Projects (*.pro)|*.pro|All files|*.*
+SaveDialog_ProjectTitle=Save project
+SaveDialog_ProjectFilter=Projects (*.pro)|*.pro|All files|*.*
+Menu_NewProject=New project (clear all)
+Menu_OpenProject=Open project
+Menu_SaveProject=Save project
+CheckBox_ClearProjectAfterBurn=clear the project after burn is complete
+CheckBox_ClearProjectAfterBurnHint=
+
+//New in 3.62
+CheckBox_ShowLog=show &log
+CheckBox_ShowLogHint=
+CheckBox_VerifyDataAfterBurn=verify data after burn is complete
+CheckBox_VerifyDataAfterBurnHint=
+DeviceBufferHint=Device buffer status
+SoftwareBufferHint=Software buffer status
+
+[ImportSession]
+Text_SelectTrack=Select a track to continue with multisession writing:
+Text_Track=Track
+Button_OK=OK
+Button_Cancel=Cancel
+
+[Messages]
+NoMedia_Text=No media inserted in the selected device.|Please insert a recordable media and try again.||
+NoMedia_Caption=Waiting for disk
+ISONotBlank_Text=Disk is not blank.|Erase it first before burn ISO image.
+ISONotBlank_Caption=Disk is not blank.
+Abort_Text=Are you sure that you want to cancel the current process?
+Abort_Caption=Question
+EraseMediumWarning_Text=Warning!|All data on the CD/DVD -RW in the current|selected recorder will be lost...||Do you want to continue?
+EraseMediumWarning_Caption=Erase Re-Writable CD/DVD
+EraseDiskNotRewritable_Text=Disc is not rewritable. Change media and try again.
+EraseDiskNotRewritable_Caption=Attention!
+NewProject_Text=All data of current project will be lost.||Do you want to continue?
+NewProject_Caption=Warning!
+Burn_NoEnoughSpace1_Text=Free space on disk-
+Burn_NoEnoughSpace2_Text=The remaining free space on disk-
+Burn_NoEnoughSpace3_Text=Do you want to continue?
+Burn_NoEnoughCaption_Text=There is not enough space available to burn!
+Progress_Erasing=erasing
+Progress_Writing=writing
+Progress_Done=done
+
+//New in 3.60
+Progress_Finalizing=finalizing...
+
+//New in 3.62
+Progress_Verifying=data verifying

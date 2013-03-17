@@ -1,0 +1,128 @@
+[Program]
+Charset=238
+//ANSI_CHARSET	0	ANSI characters. 
+//DEFAULT_CHARSET	1	Font is chosen based solely on Name and Size. If the described font is not available on the system, Windows will substitute another font.
+//SYMBOL_CHARSET	2	Standard symbol set.
+//SHIFTJIS_CHARSET	128	Japanese shift-jis characters.
+//HANGEUL_CHARSET	129	Korean characters (Wansung).
+//JOHAB_CHARSET	130	Korean characters (Johab).
+//GB2312_CHARSET	134	Simplified Chinese characters (mainland china).
+//CHINESEBIG5_CHARSET	136	Traditional Chinese characters (taiwanese).
+//GREEK_CHARSET	161	Greek characters.
+//TURKISH_CHARSET	162	Turkish characters.
+//VIETNAMESE_CHARSET	163	Vietnamese characters.
+//HEBREW_CHARSET	177	Hebrew characters.
+//ARABIC_CHARSET	178	Arabic characters.
+//BALTIC_CHARSET	186	Baltic characters.
+//RUSSIAN_CHARSET	204	Cyrillic characters.
+//THAI_CHARSET	222	Thai characters.
+//EASTEUROPE_CHARSET	238	Includes diacritical marks for eastern european countries.
+//OEM_CHARSET	255	Depends on the codepage of the operating system.
+
+[Main]
+ComboBox_SpeedHint=Prêdkoœæ
+Button_Erase=&Kasuj
+Button_EraseHint=kasowanie
+Button_Burn=&Wypal
+Button_BurnHint=Wypalanie
+Button_EjectHint=Wysuñ dysk
+Button_ImportSession=&Importuj sesjê
+Button_ImportSessionHint=Wybierz sesjê do zaimportowania
+Button_Options=&Opcje
+Button_OptionsHint=Zobacz opcje
+Button_RegisterHint=Rejestruj online
+Button_AboutHint=O programie
+ProgressBarHint=Postêp nagrywania
+ProjectSizeHint=Projekt rozmiar
+MediumSizeHint=Wolna przestrzeñ(kliknij by odœwie¿yæ)
+GroupBox_BurnOptions= Wypal 
+Text_WriteMethod=Metoda zapisu
+ComboBox_WriteMethod_TrackAtOnce=TAO (Track-At-Once)
+ComboBox_WriteMethod_DiskAtOnce=DAO (Disk-At-Once)
+CheckBox_ImportLastSession=Importuj ostani¹ sesjê przed zapisem
+CheckBox_ImportLastSessionHint=Import ostaniej sesji przed zapisem
+CheckBox_FinalizeTrack=Zamknij œcie¿kê
+CheckBox_FinalizeTrackHint=Zamkniêcie œcie¿ki
+CheckBox_FinalizeDisk=Zamknij dysk
+CheckBox_FinalizeDiskHint=Zamkniêcie dysku
+CheckBox_Joliet=System plików Joliet
+CheckBox_JolietHint=System plików Joliet
+CheckBox_HideOnBurn=minimalizuj w trakcie wypalania
+CheckBox_HideOnBurnHint=minimalizacja w trakcie wypalania
+CheckBox_EjectAfterBurn=Wysuñ dysk po zakoñczeniu wypalania
+CheckBox_EjectAfterBurnHint=Wysuniêcie dysku po zakoñczeniu wypalania
+CheckBox_CloseAfterBurn=Zamknij po zakoñczeniu wypalania
+CheckBox_CloseAfterBurnHint=Zamkniêcie po zakoñczeniu wypalania
+
+GroupBox_EraseOptions= Kasuj 
+Text_EraseMethod=Metoda kasowania
+ComboBox_EraseMethod_Quick=Szybkie-kasowanie noœnika CDR/DVD -RW
+ComboBox_EraseMethod_Full=Pe³ne-kasowanie noœnika CDR/DVD -RW
+CheckBox_EjectAfterErase=Wysuñ dysk po zakoñczeniu kasowania
+CheckBox_EjectAfterEraseHint=Wysuniêcie dysku po zakoñczeniu kasowania
+CheckBox_HideOnErase=minimalizuj podczas kasowania
+CheckBox_HideOnEraseHint=minimalizacja podczas kasowania
+
+GroupBox_ProjectOptions=Projekt 
+Text_VolumeLabel=Etykieta dysku
+Edit_VolumeLabelHint=Etykieta dysku
+CheckBox_BurnISO=wypal ISO
+CheckBox_BurnISOHint=wypalanie ISO
+CheckBox_Bootable=bootable-samostartuj¹cy
+CheckBox_BootableHint=bootable-samostartuj¹cy
+RadioButton_ImageFile=Plik obrazu
+RadioButton_ImageFileHint=Plik obrazu
+RadioButton_Floppy=Dyskietka
+RadioButton_FloppyHint=Dyskietka
+Edit_ImagePathHint=œcie¿ka dostêpu
+Button_SelectImageFileHint=wybór obrazu
+
+CheckBox_StayOnTop=pozostaw na wierzchu
+CheckBox_StayOnTopHint=pozostawia na wierzchu
+OpenDialog_ImageFileTitle=Plik obrazu
+OpenDialog_ImageFileFilter=Boot obrazy (*.ima;*.img;*.bin)|*.ima;*.img;*.bin|All files|*.*
+
+//New in 3.60
+Button_ProjectHint=Projekt
+Button_Project=Projekt...
+Button_AboutHint=O programie
+Button_About=O programie
+OpenDialog_ProjectTitle=Otwórz projekt
+OpenDialog_ProjectFilter=Projekty (*.pro)|*.pro|Wszystkie pliki|*.*
+SaveDialog_ProjectTitle=Zapisz projekt
+SaveDialog_ProjectFilter=Projekty (*.pro)|*.pro|Wszystkie pliki|*.*
+Menu_NewProject=Nowy projekt (wyczyœæ wszystkol)
+Menu_OpenProject=Otwórz projekt
+Menu_SaveProject=Zapisz projekt
+CheckBox_ClearProjectAfterBurn=czyœæ projekt po zakoñczeniu wypalania
+CheckBox_ClearProjectAfterBurnHint=czyœci projekt po zakoñczeniu wypalania
+
+[ImportSession]
+Text_SelectTrack=Wybierz œciê¿kê w celu kontynuacji zapisu w trybie multisesji:
+Text_Track=Œcie¿ka
+Button_OK=OK
+Button_Cancel=Anuluj
+
+[Messages]
+NoMedia_Text=Nie ma noœnika w wybranym napêdzie.|Proszê w³o¿yæ zapisywalny noœnik i spróbowaæ ponownie.||
+NoMedia_Caption=Czekam na dysk
+ISONotBlank_Text=Dysk nie jest pusty.|Najpierw skasuj go przed wypaleniem obrazu  ISO.
+ISONotBlank_Caption=Dysk nie jest pusty.
+Abort_Text=Czy jestes pewien ¿e chcesz anulowæ aktualny proces?
+Abort_Caption=Pytanie
+EraseMediumWarning_Text=Uwaga!|Wszystkie dane na  CD/DVD -RW w aktualnie|wybranej nagrywarce zostan¹ utracone...||Czy chcesz kontynuowaæ?
+EraseMediumWarning_Caption=Kasowanie Re-Writable CD/DVD
+EraseDiskNotRewritable_Text=Dysk nie jest zapisywalny. Wymieñ nosnik i spróbuj ponownie.
+EraseDiskNotRewritable_Caption=Uwaga!
+NewProject_Text=Wszystkie dane aktualnego projektu zostana utracone.||Czy chcesz kontynuowaæ?
+NewProject_Caption=Ostrze¿enie!
+Burn_NoEnoughSpace1_Text=Wolna przestrzeñ na dysku-
+Burn_NoEnoughSpace2_Text=Pozosta³a wolna przestrzeñ na dysku-
+Burn_NoEnoughSpace3_Text=Czy chcesz kontynuowaæ?
+Burn_NoEnoughCaption_Text=Nie ma wystarczaj¹cej przestrzeni do wypalania!
+Progress_Erasing=kasujê
+Progress_Writing=zapisujê
+Progress_Done=zrobione
+
+//New in 3.60
+Progress_Finalizing=finalizujê...

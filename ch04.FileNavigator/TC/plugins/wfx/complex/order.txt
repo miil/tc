@@ -1,0 +1,48 @@
+Print this form and fill out all applicable fields below.
+
+Fax to:
+801-497-9456
+
+Mail to: (checks payable to Emetrix)
+Emetrix
+ATTN: Sales
+1648 Willow Dr
+Kaysville UT 84037
+USA
+
+Name	_____________________________________________________
+
+Address	_____________________________________________________
+
+	_____________________________________________________
+
+City	_____________________________________________________
+
+State	_____________________________________________________
+
+ZipCode	_____________________________________________________
+
+Country	_____________________________________________________
+
+Phone	_____________________________________________________
+
+Fax	_____________________________________________________
+
+Email	_____________________________________________________
+
+Credit Card Info: (if applicable)
+
+[ ]Visa  [ ]MasterCard  [ ]American Express [ ]Discover
+
+Number	___________________________________ Exp______________
+
+Product Information:
+
+Product	Name	Complex CD/DVD burner Pro
+
+Product Price	US$14.95
+
+Delivery Option _____________________________________________
+(check product info for available options and pricing)
+
+

@@ -1,0 +1,39 @@
+History of changes
+------------------
+Legend:
++ Added feature
+* Improved/changed feature
+- Bug fixed
+
+3.00
+[*] New engine (the compatibility with Intel UltraATA Storage drivers has been improved)
+[+] The support of Unicode filenames recording (Korean, Chinese, etc.)
+
+3.20
+[*] The number of recordable files and directories has been increased up to 600 000 and 20000 correspondingly
+[*] ini-file location has been changed to plugin directory 
+[*] Incorrect DVD disc capacity showing out has been altered
+[+] Multilanguage Interface Support
+[+] The Special Icon in the Network Neighborhood has been added
+
+3.40
+[+] Status lamp
+[*] User interface has been improved 
+...Different bugfixes and improvements
+
+3.60
+[-] The imported files size and date of the creation are shown 
+[+] The opportunity not to enter the registration key into the registry (the registration key has to be placed in the TC directory)
+[+] About Box for the registered version
+[+] Speeds refreshing in case switching through the recorders
+[+] The information on the chosen recorder and writing speed is saved
+[+] Project saving/openning
+[+] New interface languages - Spanish, Dutch, French, Italian
+...Various detailed bugfixes and perfections
+
+3.62 
+[+] Log window
+[+] Verifying data after burn
+[+] Indicators for device and software buffer status 
+[+] New interface languages - Albanian, Arabic, Czech, Hungarian, Latvian, Russian, Slovak, Polish
+...Different bugfixes and improvements

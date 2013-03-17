@@ -1,0 +1,218 @@
+; Language: Deutsch (German)
+; Author  : Kurt Lettmaier
+; Version 0.9.7.0 (Sep 7 2006)
+
+MENU	101
+	POPUP	"&Datei"
+		MENUITEM	"&Öffnen...",40036
+		MENUITEM	"&Neu laden",40048
+		MENUITEM	"&Schließen",40066
+		POPUP	"Öffnen &mit"
+			MENUITEM	"",40093
+			MENUITEM	"",40094
+			MENUITEM	"",40095
+			MENUITEM	"",40096
+			MENUITEM	SEPARATOR
+			MENUITEM	"&Konfigurieren...",40092
+		END_POPUP
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Speichern",40067
+		MENUITEM	"Speichern &als...",40002
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Drucken...",40075
+		MENUITEM	SEPARATOR
+		MENUITEM	"&TWAIN-Quelle wählen...",40101
+		MENUITEM	"Eins&cannen...",40102
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Nächste",40030
+		MENUITEM	"&Vorherige",40031
+		MENUITEM	"&Erste",40099
+		MENUITEM	"&Letzte",40100
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Kopieren...",40077
+		MENUITEM	"&Verschieben...",40078
+		MENUITEM	"&Löschen...",40049
+		MENUITEM	"&Umbenennen...",40082
+		MENUITEM	"&Eigenschaften",40098
+		MENUITEM	SEPARATOR
+		MENUITEM	"Be&enden",40033
+	END_POPUP
+
+	POPUP	"&Bearbeiten"
+		MENUITEM	"&Kopieren",40001
+		MENUITEM	"&Einfügen",40050
+		MENUITEM	SEPARATOR
+		MENUITEM	"Zwischenablage &leeren",40068
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Alles markieren",40089
+	END_POPUP
+
+	POPUP	"&Bild"
+		MENUITEM	"&Information...",40006
+		MENUITEM	"&EXIF-Information...",40051
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Vertikal spiegeln",40007
+		MENUITEM	"&Horizontal spiegeln",40008
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Graustufen",40009
+		MENUITEM	"&Negativ",40010
+		MENUITEM	SEPARATOR
+		MENUITEM	"Farb&tiefe ändern...",40011
+		MENUITEM	"&Größe ändern...",40074
+		MENUITEM	SEPARATOR
+		POPUP	"Farben &vertauschen"
+			MENUITEM	"RGB -> BGR",40012
+			MENUITEM	"RGB -> RBG",40013
+			MENUITEM	"RGB -> GRB",40014
+			MENUITEM	"RGB -> BRG",40015
+			MENUITEM	"RGB -> GBR",40016
+		END_POPUP
+		POPUP	"&Drehen"
+			MENUITEM	"&Links",40017
+			MENUITEM	"&Rechts",40018
+			MENUITEM	"&180 Grad",40019
+			MENUITEM	SEPARATOR
+			MENUITEM	"&Frei...",40046
+		END_POPUP
+		POPUP	"Als &Hintergrundbild setzen"
+			MENUITEM	"&Zentriert",40020
+			MENUITEM	"Ge&kachelt",40021
+			MENUITEM	"Ge&streckt",40022
+		END_POPUP
+		POPUP	"&Filter"
+			MENUITEM	"&Durchsuchen...",40039
+		END_POPUP
+		POPUP	"&Palette"
+			MENUITEM	"&Bearbeiten...",40023
+			MENUITEM	"&Importieren...",40065
+			MENUITEM	"E&xportieren...",40038
+		END_POPUP
+		POPUP	"&Transparenz"
+			MENUITEM	"&Setzen...",40062
+			MENUITEM	"&Leeren",40063
+		END_POPUP
+	END_POPUP
+
+	POPUP	"&Animation"
+		MENUITEM	"&Pause",40026
+		MENUITEM	"&Nächster Frame",40027
+		MENUITEM	"&Vorheriger Frame",40081
+		MENUITEM	SEPARATOR
+		MENUITEM	"Aktuellen Frame &extrahieren...",40003
+		MENUITEM	"&Alle Frames extrahieren...",40004
+		MENUITEM	SEPARATOR
+		POPUP	"E&xportieren"
+			MENUITEM	"&AVI-Video...",40005
+		END_POPUP
+	END_POPUP
+
+	POPUP	"&Ansicht"
+		POPUP	"&Seite"
+			MENUITEM	"&Vorherige",40042
+			MENUITEM	"&Nächste",40041
+			MENUITEM	SEPARATOR
+			MENUITEM	"&Erste",40043
+			MENUITEM	"&Letzte",40044
+		END_POPUP
+		POPUP	"&Mausmodus"
+			MENUITEM	"&Nächster",40090
+			MENUITEM	"&Vorheriger",40091
+		END_POPUP
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Werkzeugleiste",40064
+		MENUITEM	"&Statusleiste",40029
+		MENUITEM	SEPARATOR
+		MENUITEM	"Zeige &Framenummer",40032
+		MENUITEM	"Nur &große Bilder anpassen",40037
+		MENUITEM	"&Vollbild",40045
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Transparenz anzeigen",40028
+		MENUITEM	"&Antialiasing",40079
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Einzoonen",40034
+		MENUITEM	"&Auszoonen",40035
+		MENUITEM	"Zoome auf 100%",40047
+		MENUITEM	"Zoom &sperren",40088
+	END_POPUP
+
+	POPUP	"&Optionen"
+		MENUITEM	"&Einstellungen...",40024
+	END_POPUP
+
+	POPUP	"&Werkzeuge"
+		MENUITEM	"&Miniaturansicht...",40070
+		MENUITEM	"Erzeuge &Mehrfachseite...",40083
+	END_POPUP
+
+	POPUP	"&Fenster"
+		MENUITEM	"Mi&nimieren",40072
+		MENUITEM	"Ma&ximieren",40073
+		MENUITEM	SEPARATOR
+		MENUITEM	"Immer im &Vordergrund",40069
+		MENUITEM	"Position &speichern",40080
+	END_POPUP
+
+	MENUITEM	SEPARATOR
+
+	POPUP	"&Hilfe"
+		MENUITEM	"&Index",40076
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Unterstützte Dateiformate...",40071
+		MENUITEM	"Installierte &Plugins...",40040
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Über...",40025
+	END_POPUP
+END_MENU
+
+MENU	132
+	POPUP	"&Datei"
+		MENUITEM	"&Öffnen...",40036
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Löschen...",40049
+		MENUITEM	"&Umbenennen...",40082
+		MENUITEM	"&Eigenschaften",40098
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Schließen",40066
+	END_POPUP
+
+	POPUP	"&Bearbeiten"
+		MENUITEM	"&Kopieren",40001
+		MENUITEM	"&Einfügen",40050
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Alles markieren",40089
+	END_POPUP
+
+	POPUP	"&Ansicht"
+		MENUITEM	"&Transparenz anzeigen",40028
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Verzeichnis",40097
+		MENUITEM	"&Werkzeugleiste",40064
+		MENUITEM	"&Statusleiste",40029
+		MENUITEM	"&Titelleiste",40086
+		MENUITEM	SEPARATOR
+		MENUITEM	"Nur &unterstützte Dateien",40087
+		MENUITEM	SEPARATOR
+		POPUP	"&Verschieben nach"
+			MENUITEM	"Eine &Ebene höher",40084
+		END_POPUP
+		MENUITEM	"Neu ein&lesen",40085
+	END_POPUP
+
+	POPUP	"&Optionen"
+		MENUITEM	"&Einstellungen...",40024
+	END_POPUP
+
+	POPUP	"&Fenster"
+		MENUITEM	"Mi&nimieren",40072
+		MENUITEM	"Ma&ximieren",40073
+		MENUITEM	SEPARATOR
+		MENUITEM	"Immer im &Vordergrund",40069
+		MENUITEM	"Position &speichern",40080
+	END_POPUP
+
+	POPUP	"&Hilfe"
+		MENUITEM	"&Index",40076
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Über...",40025
+	END_POPUP
+END_MENU

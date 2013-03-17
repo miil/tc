@@ -1,0 +1,135 @@
+[Program]
+Charset=238
+//ANSI_CHARSET	0	ANSI characters. 
+//DEFAULT_CHARSET	1	Font is chosen based solely on Name and Size. If the described font is not available on the system, Windows will substitute another font.
+//SYMBOL_CHARSET	2	Standard symbol set.
+//SHIFTJIS_CHARSET	128	Japanese shift-jis characters.
+//HANGEUL_CHARSET	129	Korean characters (Wansung).
+//JOHAB_CHARSET	130	Korean characters (Johab).
+//GB2312_CHARSET	134	Simplified Chinese characters (mainland china).
+//CHINESEBIG5_CHARSET	136	Traditional Chinese characters (taiwanese).
+//GREEK_CHARSET	161	Greek characters.
+//TURKISH_CHARSET	162	Turkish characters.
+//VIETNAMESE_CHARSET	163	Vietnamese characters.
+//HEBREW_CHARSET	177	Hebrew characters.
+//ARABIC_CHARSET	178	Arabic characters.
+//BALTIC_CHARSET	186	Baltic characters.
+//RUSSIAN_CHARSET	204	Cyrillic characters.
+//THAI_CHARSET	222	Thai characters.
+//EASTEUROPE_CHARSET	238	Includes diacritical marks for eastern european countries.
+//OEM_CHARSET	255	Depends on the codepage of the operating system.
+
+[Main]
+ComboBox_SpeedHint=
+Button_Erase=&Briši
+Button_EraseHint=
+Button_Burn=&Snimi
+Button_BurnHint=
+Button_EjectHint=izbaci CD/DVD 
+Button_ImportSession=&import projekta
+Button_ImportSessionHint=odabir projekta za import
+Button_Options=&Opcije
+Button_OptionsHint=Pregled opcija
+Button_RegisterHint=Online registracija
+ProgressBarHint=O
+ProjectSizeHint=Velièina projekta
+MediumSizeHint=slobodan prostor(klikni za osvježenje)
+GroupBox_BurnOptions= Metoda snimanja 
+Text_WriteMethod=Brennmethode:
+ComboBox_WriteMethod_TrackAtOnce=TAO (Track-At-Once)
+ComboBox_WriteMethod_DiskAtOnce=DAO (Disk-At-Once)
+CheckBox_ImportLastSession=Impor zadnjeg projekta prije snimanja
+CheckBox_ImportLastSessionHint=
+CheckBox_FinalizeTrack=Završi traku
+CheckBox_FinalizeTrackHint=
+CheckBox_FinalizeDisk=Završi disk
+CheckBox_FinalizeDiskHint=
+CheckBox_Joliet=Joliet filesystem
+CheckBox_JolietHint=
+CheckBox_HideOnBurn=Minimiziraj pri snimanju
+CheckBox_HideOnBurnHint=
+CheckBox_EjectAfterBurn=Izbaci disk nakon završetka snimanja
+CheckBox_EjectAfterBurnHint=
+CheckBox_CloseAfterBurn=zatvori nakon završetka snimanja
+CheckBox_CloseAfterBurnHint=
+
+GroupBox_EraseOptions= Briši
+Text_EraseMethod=Metoda brisanja
+ComboBox_EraseMethod_Quick=Brzo Briši RW medij
+ComboBox_EraseMethod_Full=Briši RW medij
+CheckBox_EjectAfterErase=Izbaci disk nakon završetka brisanja
+CheckBox_EjectAfterEraseHint=
+CheckBox_HideOnErase=Minimiziraj pri brisanju
+CheckBox_HideOnEraseHint=
+
+GroupBox_ProjectOptions= Projekt 
+Text_VolumeLabel=Ime diska
+Edit_VolumeLabelHint=
+CheckBox_BurnISO=Snimi ISO
+CheckBox_BurnISOHint=
+CheckBox_Bootable=Butabilan Disk
+CheckBox_BootableHint=
+RadioButton_ImageFile=Slika
+RadioButton_ImageFileHint=
+RadioButton_Floppy=Floppy Disk
+RadioButton_FloppyHint=
+Edit_ImagePathHint=
+Button_SelectImageFileHint=
+
+CheckBox_StayOnTop=Ostani na vrhu
+CheckBox_StayOnTopHint=
+OpenDialog_ImageFileTitle=Slika
+OpenDialog_ImageFileFilter=Boot Images (*.ima;*.img;*.bin;*.iso)|*.ima;*.img;*.bin;*.iso|Alle Dateien|*.*
+Button_ProjectHint=
+Button_Project=Projekt...
+Button_AboutHint=O...
+Button_About=O...
+OpenDialog_ProjectTitle=Otvori Projekt
+OpenDialog_ProjectFilter=Projects (*.pro)|*.pro|All files|*.*
+SaveDialog_ProjectTitle=Spremi Projekt
+SaveDialog_ProjectFilter=Projects (*.pro)|*.pro|All files|*.*
+Menu_NewProject=Novi Projekt(alles wird gelöscht)
+Menu_OpenProject=Otvori Projekt
+Menu_SaveProject=Spremi Projekt
+CheckBox_ClearProjectAfterBurn=Obriši projekt nakon završetka snimanja
+CheckBox_ClearProjectAfterBurnHint=
+
+//New in 3.62
+CheckBox_ShowLog=show &log
+CheckBox_ShowLogHint=
+CheckBox_VerifyDataAfterBurn=verify data after burn is complete
+CheckBox_VerifyDataAfterBurnHint=
+DeviceBufferHint=Device buffer status
+SoftwareBufferHint=Software buffer status
+
+
+[ImportSession]
+Text_SelectTrack=Odaberi traku za nastavak sa multisessionom:
+Text_Track=Traka
+Button_OK=OK
+Button_Cancel=Poništi
+
+[Messages]
+NoMedia_Text=Nema medija u odabranom ureðaju.|molim umetnite medij za snimanje i pokušajte ponovo.||
+NoMedia_Caption=èekanje diska
+ISONotBlank_Text=Disk nije prazan.|Izbriši prije snimanja ISO slike.
+ISONotBlank_Caption=Disk nije prazan.
+Abort_Text=Da li ste sigurni da želite prekinuti trenutni proces?
+Abort_Caption=Pitanje
+EraseMediumWarning_Text=Upozorenje! Svi podaci na CD/DVD -RW na trenutnom|odabranom Rekorderu bit æe izgubljeni...||Da li želite nastaviti?
+EraseMediumWarning_Caption=Obriši Re-Writable CD/DVD
+EraseDiskNotRewritable_Text=Disk nije re-writable. Promjenite medij i pokušajte ponovo.
+EraseDiskNotRewritable_Caption=Pozor!
+NewProject_Text=Svi podaci trenutnog projekta bit æe izgubljeni.||Da li želite nastaviti?
+NewProject_Caption=Pozor!
+Burn_NoEnoughSpace1_Text=Slobodno mjesto na disku-
+Burn_NoEnoughSpace2_Text=Preostalo slobodno mjesto na disku-
+Burn_NoEnoughSpace3_Text=Da li želite nastaviti?
+Burn_NoEnoughCaption_Text=Nema dovoljno slobodnog mjesta za snimanje!
+Progress_Erasing=Brisanje
+Progress_Writing=Snimanje
+Progress_Done=Snimanje završeno
+Progress_Finalizing=Završavanje...
+
+//New in 3.62
+Progress_Verifying=data verifying

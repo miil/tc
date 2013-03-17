@@ -1,0 +1,25 @@
+﻿<Reader>
+<Menus>
+<menu id="103">
+<popup id="|0" text="邮件">
+<menuitem id="40002" text="用在线内容管理系统发送文件"/>
+</popup>
+</menu>
+</Menus>
+<Strings>
+<string id="1" text="文件上传中...请稍后再试。"/>
+<string id="2" text="福昕阅读器"/>
+<string id="3" text="上传文件到在线内容管理系统"/>
+<string id="4" text="用在线内容管理系统发送文件"/>
+<string id="5" text="在线内容管理系统"/>
+<string id="6" text="概述"/>
+<string id="7" text="创建新帐户"/>
+<string id="8" text="登录帐户"/>
+<string id="9" text="帮助"/>
+<string id="10" text="上传中"/>
+<string id="11" text="文件处理中，请稍候"/>
+<string id="12" text="确定要取消上传吗？"/>
+<string id="13" text="在线内容管理系统"/>
+<string id="14" text="在线存储，共享，协作文件。"/>
+</Strings>
+</Reader>

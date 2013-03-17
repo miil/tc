@@ -1,0 +1,211 @@
+; Menus Français - Traduction de Claude Charries -  alias "Clo".
+; Version 0.9.7.0 ß10 (17 Juillet 2006)
+
+MENU	101
+	POPUP "&Fichier"
+ 		MENUITEM 	"&Ouvrir…",40036
+ 		MENUITEM 	"&Rouvrir",40048
+ 		MENUITEM 	"&Fermer",40066
+ 		POPUP	"Ouvrir &avec"
+			MENUITEM	SEPARATOR
+			MENUITEM	SEPARATOR
+			MENUITEM	SEPARATOR
+			MENUITEM	SEPARATOR
+			MENUITEM	SEPARATOR
+			MENUITEM	"&Configurer...",40092
+		END_POPUP
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"&Enregistrer",40067
+ 		MENUITEM 	"Enregistrer &sous…",40002
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"&Imprimer…",40075
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"Sui&vant",40030
+ 		MENUITEM 	"&Précédent",40031
+                MENUITEM        "Premier",40099
+                MENUITEM        "Dernier",40100
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"&Copier…",40077
+ 		MENUITEM 	"&Déplacer…",40078
+ 		MENUITEM 	"Suppri&mer…",40049
+ 		MENUITEM 	"Re&nommer…",40082
+		MENUITEM	"P&ropriétés",40098
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"&Quitter",40033
+	END_POPUP
+
+	POPUP "Édit&er"
+ 		MENUITEM 	"&Copier",40001
+ 		MENUITEM 	"Colle&r",40050
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"&Vider le Presse-papiers",40068
+ 		MENUITEM	SEPARATOR
+		MENUITEM	"Sélectionner &tout",40089
+	END_POPUP
+
+	POPUP "&Image"
+ 		MENUITEM 	"&Informations…",40006
+ 		MENUITEM 	"Informations &EXIF…",40051
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"Retournement &Vertical",40007
+ 		MENUITEM 	"Retournement &Horizontal",40008
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"Échelle de &Gris",40009
+ 		MENUITEM 	"Néga&tif",40010
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"Changer le mo&de de couleurs…",40011
+ 		MENUITEM 	"Redimensio&nner",40074
+ 		MENUITEM 	SEPARATOR
+		POPUP "Éc&hanger les couleurs"
+ 			MENUITEM 	"RVB -> BVR",40012
+ 			MENUITEM 	"RVB -> RBV",40013
+ 			MENUITEM 	"RVB -> VRB",40014
+ 			MENUITEM 	"RVB -> BRV",40015
+ 			MENUITEM 	"RVB -> VBR",40016
+		END_POPUP
+		POPUP "&Rotation"
+ 			MENUITEM 	"&Gauche",40017
+ 			MENUITEM 	"&Droite",40018
+ 			MENUITEM 	"&180°",40019
+			 MENUITEM 	SEPARATOR 	
+ 			MENUITEM 	"Lib&re…",40046
+		END_POPUP
+		POPUP "Éta&blir en Papier-peint"
+ 			MENUITEM 	"C&entré",40020
+ 			MENUITEM 	"&Mosaïque",40021
+ 			MENUITEM 	"Étir&é",40022
+		END_POPUP
+		POPUP "&Filtres"
+ 			MENUITEM 	"&Parcourir…",40039
+		END_POPUP
+		POPUP "&Palette"
+ 			MENUITEM 	"Édit&er…",40023
+ 			MENUITEM 	"&Importer…",40065
+ 			MENUITEM 	"E&xporter…",40038
+		END_POPUP
+		POPUP "&Transparence"
+ 			MENUITEM 	"Étab&lir…",40062
+ 			MENUITEM 	"Ann&uler",40063
+		END_POPUP
+	END_POPUP
+
+	POPUP "&Animation"
+ 		MENUITEM 	"&Pause",40026
+ 		MENUITEM 	"Cadre &suivant",40027
+ 		MENUITEM 	"Cadre précé&dent",40081
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"Extraire le &cadre en cours…",40003
+ 		MENUITEM 	"&Extraire tous les cadres…",40004
+ 			MENUITEM 	SEPARATOR
+		POPUP 	"E&xporter"
+ 			MENUITEM 	"Vidéo &AVI…",40005
+		END_POPUP
+	END_POPUP
+
+	POPUP "Affi&chage"
+		POPUP "&Page"
+ 			MENUITEM 	"&Précédente",40042
+ 			MENUITEM 	"Suiva&nte",40041
+ 				MENUITEM 	SEPARATOR
+ 			MENUITEM 	"Pre&mière",40043
+ 			MENUITEM 	"&Dernière",40044
+ 		END_POPUP
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"Barre&-outils",40064
+ 		MENUITEM 	"&Barre d'état",40029
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"A&fficher le nombre de cadres",40032
+ 		MENUITEM 	"&Emplir seulem. grosses images",40037
+ 		MENUITEM 	"Plei&n écran\tEntrée",40045
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"Afficher la &transparence",40028
+ 		MENUITEM 	"&Adoucir les bords",40079
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"Zoom pl&us",40034
+ 		MENUITEM 	"Zoom &moins",40035
+ 		MENUITEM 	"Zoom à &100%",40047
+ 		MENUITEM	"&Bloquer le zoom",40088
+	END_POPUP
+
+	POPUP "&Options"
+ 		MENUITEM 	"Age&ncements…",40024
+ 		MENUITEM	SEPARATOR
+		MENUITEM	"Mode suiva&nt",40090
+		MENUITEM	"Mode p&récédent",40091
+	END_POPUP
+
+	POPUP "Ou&tils"
+ 		MENUITEM 	"Vigne&ttes…",40070
+ 		MENUITEM 	"Créer &multi-pages TIF...",40083
+	END_POPUP
+
+	POPUP "Fe&nêtre"
+ 		MENUITEM 	"&Réduire en icône",40072
+ 		MENUITEM 	"Taille ma&ximale",40073
+ 			MENUITEM	SEPARATOR
+ 		MENUITEM 	"Touj&ours au dessus",40069
+ 		MENUITEM 	"&Enregistrer la position",40080
+	END_POPUP
+
+	POPUP "Ai&de"
+ 		MENUITEM 	"&Index",40076
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"Format&s de fichiers assumés…",40071
+ 		MENUITEM 	"&Modules installés…",40040
+ 			MENUITEM 	SEPARATOR
+ 		MENUITEM 	"&Au sujet de…",40025
+	END_POPUP
+END_MENU
+
+MENU	132
+	POPUP	"&Fichier"
+		MENUITEM	"&Ouvrir",40036
+		MENUITEM	SEPARATOR
+		MENUITEM	"Su&pprimer...",40049
+		MENUITEM	"R&enommer",40082
+		MENUITEM	"P&ropriétés",40098
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Fermer",40066
+	END_POPUP
+
+	POPUP	"Édit&er"
+		MENUITEM	"&Copier",40001
+		MENUITEM	"Co&ller",40050
+		MENUITEM	SEPARATOR
+		MENUITEM	"Sélectionner &tout",40089
+	END_POPUP
+	
+	POPUP	"&Afficher"
+		MENUITEM	"Afficher la trans&parence",40028
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Répertoire",40097
+		MENUITEM	"Barre d'ou&tils",40064
+		MENUITEM	"Barre d'ét&at",40029
+		MENUITEM	"Barre de t&itre",40086
+			MENUITEM	SEPARATOR
+		MENUITEM	"Fichiers reconnus &seulement",40087
+		MENUITEM	SEPARATOR
+		POPUP	"&Déplacer"
+			MENUITEM	"&Parent",40084
+		END_POPUP
+		MENUITEM	"&Relire",40085
+	END_POPUP
+
+	POPUP	"&Options"
+		MENUITEM	"&Préférences...",40024
+	END_POPUP
+
+	POPUP	"&Fenêtre"
+		MENUITEM	"&Réduire en icône",40072
+		MENUITEM	"Taille ma&ximale",40073
+			MENUITEM	SEPARATOR
+		MENUITEM	"Toujours au &dessus",40069
+		MENUITEM	"&Enregistrer la position",40080
+	END_POPUP
+	
+	POPUP	"&Aide"
+		MENUITEM	"&Index",40076
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Au sujet de...",40025
+	END_POPUP
+END_MENU

@@ -1,0 +1,215 @@
+; Danish menu translation by Peter H. S. Madsen http://madsenworld.dk
+; Version 0.9.7.0 (Sep 7 2006)
+
+MENU	101
+	POPUP	"&Fil"
+		MENUITEM	"&Åbn...",40036
+		MENUITEM	"G&enindlæs",40048
+		MENUITEM	"&Luk",40066
+		POPUP	"Å&bn med"
+			MENUITEM	"",40093
+			MENUITEM	"",40094
+			MENUITEM	"",40095
+			MENUITEM	"",40096
+			MENUITEM	SEPARATOR
+			MENUITEM	"&Opsætning...",40092
+		END_POPUP
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Gem",40067
+		MENUITEM	"Ge&m som...",40002
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Udskriv...",40075
+		MENUITEM	SEPARATOR
+		MENUITEM	"Vælg T&WAIN-kilde...",40101
+		MENUITEM	"S&can...",40102
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Næste",40030
+		MENUITEM	"&Forrige",40031
+		MENUITEM	"F&ørste",40099
+		MENUITEM	"Si&dste",40100
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Kopier...",40077
+		MENUITEM	"Fl&yt...",40078
+		MENUITEM	"&Slet...",40049
+		MENUITEM	"&Omdøb...",40082
+		MENUITEM	"Egenskabe&r",40098
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Afslut",40033
+	END_POPUP
+
+	POPUP	"&Rediger"
+		MENUITEM	"&Kopier",40001
+		MENUITEM	"&Indsæt",40050
+		MENUITEM	SEPARATOR
+		MENUITEM	"Ryd Udk&lipsholder",40068
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Vælg alt",40089
+	END_POPUP
+
+	POPUP	"&Billede"
+		MENUITEM	"&Information...",40006
+		MENUITEM	"&EXIF Information...",40051
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Vertikalt flip",40007
+		MENUITEM	"&Horisontalt flip",40008
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Gråskala",40009
+		MENUITEM	"&Negativ",40010
+		MENUITEM	SEPARATOR
+		MENUITEM	"Ændre farve&dybde...",40011
+		MENUITEM	"Ændre St&ørrelse...",40074
+		MENUITEM	SEPARATOR
+		POPUP	"&Ændre farver"
+			MENUITEM	"RGB -> BGR",40012
+			MENUITEM	"RGB -> RBG",40013
+			MENUITEM	"RGB -> GRB",40014
+			MENUITEM	"RGB -> BRG",40015
+			MENUITEM	"RGB -> GBR",40016
+		END_POPUP
+		POPUP	"&Roter"
+			MENUITEM	"&Venstre",40017
+			MENUITEM	"&Højre",40018
+			MENUITEM	"&180 grader",40019
+			MENUITEM	SEPARATOR
+			MENUITEM	"Valg&fri...",40046
+		END_POPUP
+		POPUP	"&Brug som skrivebordsbaggrund"
+			MENUITEM	"C&entrer",40020
+			MENUITEM	"Side &om side",40021
+			MENUITEM	"&Stæk",40022
+		END_POPUP
+		POPUP	"&Filter"
+			MENUITEM	"&Gennemse...",40039
+		END_POPUP
+		POPUP	"&Palette"
+			MENUITEM	"&Rediger...",40023
+			MENUITEM	"&Importer...",40065
+			MENUITEM	"&Eksporter...",40038
+		END_POPUP
+		POPUP	"&Transparens"
+			MENUITEM	"&Sæt...",40062
+			MENUITEM	"&Fjern",40063
+		END_POPUP
+	END_POPUP
+
+	POPUP	"&Animation"
+		MENUITEM	"&Pause",40026
+		MENUITEM	"&Næste frame",40027
+		MENUITEM	"&Forrige frame",40081
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Udtræk aktuelle frame...",40003
+		MENUITEM	"Udtræk &alle frames...",40004
+		MENUITEM	SEPARATOR
+		POPUP	"&Eksporter"
+			MENUITEM	"&AVI video...",40005
+		END_POPUP
+	END_POPUP
+
+	POPUP	"&Vis"
+		POPUP	"Si&de"
+			MENUITEM	"F&orrige",40042
+			MENUITEM	"&Næste",40041
+			MENUITEM	SEPARATOR
+			MENUITEM	"&Første",40043
+			MENUITEM	"&Sidste",40044
+		END_POPUP
+		POPUP	"&Museopsætning"
+			MENUITEM	"&Næste",40090
+			MENUITEM	"&Forrige",40091
+		END_POPUP
+		MENUITEM	SEPARATOR
+		MENUITEM	"Væ&rktøjslinje",40064
+		MENUITEM	"&Statuslinje",40029
+		MENUITEM	SEPARATOR
+		MENUITEM	"Vis fr&amenummer",40032
+		MENUITEM	"Tilpas kun store &billeder",40037
+		MENUITEM	"F&uld skærm",40045
+		MENUITEM	SEPARATOR
+		MENUITEM	"Vis &transparens",40028
+		MENUITEM	"Udjævn s&krifttyper",40079
+		MENUITEM	SEPARATOR
+		MENUITEM	"Zoom &ind",40034
+		MENUITEM	"&Zoom ud",40035
+		MENUITEM	"Z&oom til 100%",40047
+		MENUITEM	"&Lås zoom",40088
+	END_POPUP
+
+	POPUP	"&Opsætning"
+		MENUITEM	"&Egenskaber for Imagine...",40024
+	END_POPUP
+
+	POPUP	"V&ærktøj"
+		MENUITEM	"&Miniturebilleder...",40070
+		MENUITEM	"&Opret multi-side...",40083
+	END_POPUP
+
+	POPUP	"Vi&ndue"
+		MENUITEM	"Mi&nimer",40072
+		MENUITEM	"Ma&ksimer",40073
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Altid øverst",40069
+		MENUITEM	"Gem po&sition",40080
+	END_POPUP
+
+	POPUP	"&Hjælp"
+		MENUITEM	"&Indeks",40076
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Understøttede filformater...",40071
+		MENUITEM	"Installerede &plugins...",40040
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Om...",40025
+	END_POPUP
+END_MENU
+
+MENU	132
+	POPUP	"&Fil"
+		MENUITEM	"&Åbn...",40036
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Slet...",40049
+		MENUITEM	"&Omdøb...",40082
+		MENUITEM	"&Egenskaber",40098
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Luk",40066
+	END_POPUP
+
+	POPUP	"&Rediger"
+		MENUITEM	"&Kopier",40001
+		MENUITEM	"&Indsæt",40050
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Vælg alt",40089
+	END_POPUP
+
+	POPUP	"&Vis"
+		MENUITEM	"Vis &transparens",40028
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Træ",40097
+		MENUITEM	"Væ&rktøjslinje",40064
+		MENUITEM	"&Statuslinje",40029
+		MENUITEM	"&Adresselinje",40086
+		MENUITEM	SEPARATOR
+		MENUITEM	"K&un understøttede filer",40087
+		MENUITEM	SEPARATOR
+		POPUP	"Gå &til"
+			MENUITEM	"&Et niveau op",40084
+		END_POPUP
+		MENUITEM	"&Genindlæs",40085
+	END_POPUP
+
+	POPUP	"&Opsætning"
+		MENUITEM	"&Egenskaber for Imagine...",40024
+	END_POPUP
+
+	POPUP	"Vi&ndue"
+		MENUITEM	"Mi&nimer",40072
+		MENUITEM	"Ma&ksimer",40073
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Altid øverst",40069
+		MENUITEM	"Gem po&sition",40080
+	END_POPUP
+
+	POPUP	"&Hjælp"
+		MENUITEM	"&Indeks",40076
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Om...",40025
+	END_POPUP
+END_MENU

@@ -1,0 +1,62 @@
+============================================================
+         SisView plugin for Windows Commander 0.91
+                 (c) 2001  Dalibor Jelinek
+                    sisview@dalibor.cz
+                http://www.dalibor.cz/epoc/
+============================================================
+
+How to install this plugin:
+
+  1. Unzip the WCX to the Wincmd directory
+  2. In Windows Commander 4.0 (or newer), choose Configuration - Options
+  3. Open the 'Packer' page
+  4. Click 'Configure packer extension DLLs'
+  5. Type  'sis'  as the extension
+  6. Click 'New type...', and select the SisView.wcx
+  7. Click OK
+
+
+
+What it does:
+
+  This plugin allows you to view and extract the contents of EPOC
+  installation packages (*.sis). 
+  - displays all the files contained in sis file 
+  - displays some basic information about sis file in folder " Information"
+  - in folder " Requisities" are all the requisities needed to install
+    this sis (if any)
+  - folder "Dialogs" contains all the text dialogs
+  - folder "Sis components" shows all the shared sis files which will 
+    be installed
+  - shows the original name of components installed
+  - shows files which are run during installation and/or removal
+  - shows files which are created by application later
+
+
+
+Known problems:
+
+  - Files with duplicate names are named "filename (1) (1) (1)"
+
+
+
+Credits:
+
+  - Thanks to Alexander Thoukydides for his description of sis file format
+    http://www.thouky.co.uk/software/psifs/sis.html
+  - Thanks to Christian Ghisler for writing very nice Windows Commader.
+
+Please send your comments and ideas to sisview@dalibor.cz
+This program is freeware. 
+
+
+
+What's new:
+Ver 0.9.1	- fixed bug which appears when there are more languages than files (i.e. Palmtop Upgrade Uitlity)
+          - added some patches for sis files with zero files to be installed (is it needed?)
+          - fixed bug in routine for UID checksums (appeared only in sis fo ER6)
+          - added calculation and verification of CRC
+          - fixed problem with multiple requisity names
+          - changed the display structure little bit
+          - added very unstable code to open ER6 sis files
+
